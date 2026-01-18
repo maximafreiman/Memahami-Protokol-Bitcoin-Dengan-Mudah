@@ -1,4 +1,4 @@
-# Bitcoin Simplicity
+# Memahami Protokol Bitcoin Dengan Mudah
 Lindungi Uang dan Nilaimu dengan Bitcoin. Cocok untuk Semuanya 
 
 Bitcoin Simplicity (judul asli, ditulis oleh penulis yang sama) adalah proyek edukasi Bitcoin yang dikerjakan secara solo,
