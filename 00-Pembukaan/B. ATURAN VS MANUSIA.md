@@ -8,11 +8,11 @@ Masalah utamanya bukan pada aturannya, tapi pada sifat manusia. Manusia punya ke
 
 Akibatnya, kita hidup dalam sistem di mana:
 
-aturan bisa diubah kapan saja
+- aturan bisa diubah kapan saja
 
-aturan bisa ditafsirkan berbeda untuk orang yang berbeda
+- aturan bisa ditafsirkan berbeda untuk orang yang berbeda
 
-aturan bisa disisihkan demi “kondisi khusus”
+- aturan bisa disisihkan demi “kondisi khusus”
 
 Pada titik ini, aturan tidak lagi menjadi fondasi sistem. Aturan berubah menjadi alat bagi mereka yang menguasainya.
 
@@ -20,11 +20,11 @@ Sekarang bayangkan sistem yang bekerja dengan cara berbeda. Sistem di mana atura
 
 Dalam sistem seperti ini:
 
-aturan tidak bisa disuap
+- aturan tidak bisa disuap
 
-aturan tidak punya kepentingan pribadi
+- aturan tidak punya kepentingan pribadi
 
-aturan berlaku sama untuk semua orang
+- aturan berlaku sama untuk semua orang
 
 Jika sebuah aturan dilanggar, sistem akan langsung menolaknya. Bukan karena niat, tapi karena aturan tetaplah aturan.
 
