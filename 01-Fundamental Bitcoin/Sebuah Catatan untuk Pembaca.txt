@@ -1,0 +1,9 @@
+Catatan untuk Pembaca
+
+-----------
+
+Folder ini merupakan bagian dari jalur pembelajaran Bitcoin Simplicity.
+Materinya disusun secara bertahap dan berfokus pada pemahaman Bitcoin melalui aturan protokolnya.
+
+Kamu bisa membaca setiap folder dengan ritmemu sendiri dan berhenti di level mana pun yang sesuai dengan kebutuhanmu.
+Tidak diperlukan latar belakang teknis sebelumnya.
