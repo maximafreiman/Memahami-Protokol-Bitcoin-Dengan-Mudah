@@ -1,5 +1,7 @@
-# Memahami Protokol Bitcoin Dengan Mudah
+### Memahami Protokol Bitcoin Dengan Mudah
 Lindungi Uang dan Nilaimu dengan Bitcoin. Cocok untuk Semuanya 
+
+---
 
 Bitcoin Simplicity (judul asli, ditulis oleh penulis yang sama) adalah proyek edukasi Bitcoin yang dikerjakan secara solo,
 membahas semuanya mulai dari dasar hingga tingkat pengembang,
@@ -10,7 +12,7 @@ Pendekatannya sederhana:
 Bitcoin dijelaskan berdasarkan aturan protokolnya,
 tanpa jargon yang tidak perlu dan tanpa mencampurkannya dengan “kripto”.
 
----
+
 
 ## Scope
 
