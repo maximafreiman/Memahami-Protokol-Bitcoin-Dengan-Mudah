@@ -1,5 +1,5 @@
-### How Bitcoin Works  
-## Compared to Commodity Money and Fiat Money
+How Bitcoin Works? Compared to Commodity Money and Fiat Money.
+---
 
 To understand how Bitcoin works, it helps to compare it with the two types of money humans have relied on before:  
 **commodity money** and **fiat money**.
