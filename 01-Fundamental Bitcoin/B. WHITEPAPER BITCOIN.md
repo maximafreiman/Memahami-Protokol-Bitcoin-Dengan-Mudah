@@ -24,7 +24,10 @@ Isi dari Whitepaper ini ada 13 bagian
 
 Semua yang ada di dalam Whitepaper dijelaskan dengan bahasa yang teknis, walaupun ada beberapa bagian yang disederhanakan. Tapi jangan khawatir! Per poin akan dijelaskan dengan sederhana.
 
+--
+
 1. Abstrak
+
 Disini dijelaskan dalam bentuk ringkasan satu halaman yang menjelaskan ide besar dan cara kerja utama Bitcoin secara garis besar. Disini dijelaskan, Bitcoin adalah sistem uang digital yang memungkinkan orang mengirim pembayaran langsung tanpa bank atau perantara, dengan keamanan dijaga oleh jaringan komputer global. Transaksi diamankan dengan tanda tangan kriptografi dan dicatat dalam blockchain melalui proof-of-work, sehingga catatannya sulit diubah. Rantai terpanjang dianggap sebagai kebenaran karena mewakili tenaga komputasi terbesar dan menjaga jaringan tetap aman dari kecurangan seperti pembelanjaan ganda.
 
 2. Pendahuluan
