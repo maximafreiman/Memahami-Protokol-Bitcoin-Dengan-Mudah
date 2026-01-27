@@ -6,10 +6,22 @@ Pernah dengar istilah whitepaper? Singkatnya adalah ini merupakan sebuah dokumen
 
 Ditulis oleh pseudonim bernama **Satoshi Nakamoto** pada **31 Oktober 2008** terciptalah sebuah gagasan baru mengenai bagaimana uang dengan sistem peer to peer digital cash bisa bekerja tanpa pihak ketiga seperti perbankan. Melalui dari perkembangan kriptografi dan komputasi sejak tahun 1974, Satoshi menjelaskan bagaimana semua disiplin ilmu kriptografi dan komputer bisa diimplementasikan dalam uang cash digital.
 
-Isi dari Whitepaper ini ada 12 bagian
+Isi dari Whitepaper ini ada 13 bagian
 
 - Abstrak
 - Bag. 1
 - Transaksi
 - Timestamp Server
 - Proof of Work
+- Network atau Jaringan
+- Insentif
+- Ruang Pemyimpanan
+- Verifikasi Transaksi yang Disederhanakan
+- Menggabungkan dan Memisahkan Nilai
+- Privasi
+- Perhitungan
+- Kesimpulan
+
+Semua yang ada di dalam Whitepaper dijelaskan dengan bahasa yang teknis, walaupun ada beberapa bagian yang disederhanakan. Tapi jangan khawatir! Per poin akan dijelaskan dengan sederhana.
+
+(Segera..)
