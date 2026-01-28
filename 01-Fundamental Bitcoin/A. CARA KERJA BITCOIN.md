@@ -28,15 +28,14 @@ Kelemahannya, uang jenis ini lambat, berat, dan sulit dipindahkan dalam jarak ja
 
 ##
 
-### 2. Fiat Money (Modern Currencies)
+### 2. Uang Fiat (Uang Modern Saat ini)
 
-Fiat money is different.  
-It is not valuable because of its physical form, but because a government declares it to be valid for payments and taxes.
+Uang fiat itu berbeda. Nilainya bukan karena bentuk fisiknya, tapi karena pemerintah menetapkannya sebagai alat pembayaran yang sah dan bisa dipakai untuk membayar pajak.
 
-In this system:
-- **Creation** happens through institutions (central banks and the banking system)  
-- **Verification** happens through trusted authorities and legal frameworks  
-- **Control** is centralized  
+Dalam sistem ini:
+- **Penciptaan** terjadi lewat lembaga (bank sentral dan sistem perbankan)
+- **Verifikasi** dilakukan lewat otoritas yang dipercaya dan aturan hukum
+- **Kontrol** bersifat terpusat 
 
 Fiat money is fast, flexible, and easy to use in a modern economy.  
 But it depends entirely on **trust**:  
