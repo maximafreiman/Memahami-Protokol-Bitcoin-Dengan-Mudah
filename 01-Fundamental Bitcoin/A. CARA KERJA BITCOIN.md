@@ -45,23 +45,23 @@ dan percaya bahwa aksesnya akan tetap tersedia.
 
 ##
 
-### 3. Bitcoin (Digital Scarcity)
+### 3. Bitcoin (Kelangkaan Digital)
 
-Bitcoin introduces a third model: **digital scarcity**.
+Bitcoin memperkenalkan model ketiga: **kelangkaan digital.**
 
-It is not backed by a physical object.  
-It is not issued by a state.
+Bitcoin tidak didukung oleh benda fisik.
+Bitcoin juga tidak diterbitkan oleh negara.
 
-Instead, it is defined by **rules enforced by a network**.
+Sebaliknya, Bitcoin ditentukan oleh **aturan yang ditegakkan oleh sebuah jaringan.**
 
-In Bitcoin:
-- **Creation** happens through mining, following strict protocol rules  
-- **Verification** happens through independent nodes checking every transaction and block  
-- **Control** is distributed across anyone who chooses to participate  
+Dalam Bitcoin:
+- **Penciptaan** terjadi lewat proses mining, mengikuti aturan protokol yang ketat
+- **Verifikasi** dilakukan oleh node-node independen yang memeriksa setiap transaksi dan blok
+- **Kontrol** tersebar ke siapa pun yang memilih untuk ikut berpartisipasi
 
-New bitcoins can only be created according to a fixed schedule.  
-Transactions are only accepted if they follow the rules.  
-No single participant can override the system.
+Bitcoin baru hanya bisa diciptakan sesuai dengan jadwal yang sudah ditetapkan.
+Transaksi hanya akan diterima jika mengikuti aturan.
+Tidak ada satu pihak pun yang bisa mengesampingkan sistem ini sendirian.
 
 ##
 
