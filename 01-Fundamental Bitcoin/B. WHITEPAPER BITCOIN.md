@@ -38,7 +38,7 @@ Bitcoin menawarkan solusi dengan mengganti kepercayaan kepada pihak ketiga menja
 
 **3. Transaksi**
 
-Disini dijelaskan mekanisme transfer Bitcoin, dan bagaimana aktivitas transfer-menransfer ini diverifikasi. Jadi, setiap kali seseorang mengirim koin, dia “menandatangani” bukti bahwa koin itu sekarang milik orang berikutnya. Orang yang menerima bisa mengecek tanda tangan ini untuk memastikan koin itu benar-benar datang dari pemilik sebelumnya.
+Disini dijelaskan mekanisme transfer Bitcoin, dan bagaimana aktivitas transfer-menransfer ini diverifikasi. Kita pakai analogi koin biar lebih simpel. Jadi, setiap kali seseorang mengirim koin, dia “menandatangani” bukti bahwa koin itu sekarang milik orang berikutnya. Orang yang menerima bisa mengecek tanda tangan ini untuk memastikan koin itu benar-benar datang dari pemilik sebelumnya.
 
 Masalahnya: Seseorang bisa saja mencoba mengirim koin yang sama ke dua orang berbeda di waktu yang hampir bersamaan.
 
