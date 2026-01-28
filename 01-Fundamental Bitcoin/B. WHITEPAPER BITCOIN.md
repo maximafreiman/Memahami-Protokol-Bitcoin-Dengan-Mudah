@@ -51,5 +51,7 @@ Jadi intinya, Bitcoin tidak mencegah orang mencoba curang, tapi membuat jaringan
 
 <img width="492" height="267" alt="tx bitcoin" src="https://github.com/user-attachments/assets/6bdbdea7-6612-4bf2-9d77-e803abe4dc0f" />
 
+**4. Timestamp Server**
+
 
 (Akan segera update untuk lanjutan materi. Stay tune..)
