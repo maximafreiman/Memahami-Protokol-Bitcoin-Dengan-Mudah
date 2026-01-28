@@ -49,4 +49,7 @@ Transaksi yang diterima pertama oleh mayoritas komputer itulah yang dianggap sah
 
 Jadi intinya, Bitcoin tidak mencegah orang mencoba curang, tapi membuat jaringan global bersama-sama menentukan mana transaksi yang benar tanpa perlu bank atau pihak pusat.
 
+<img width="492" height="267" alt="tx bitcoin" src="https://github.com/user-attachments/assets/6bdbdea7-6612-4bf2-9d77-e803abe4dc0f" />
+
+
 (Akan segera update untuk lanjutan materi. Stay tune..)
