@@ -23,8 +23,8 @@ Dalam sistem ini:
 - **Verifikasi** dilakukan lewat pemeriksaan manusia (berat, kemurnian, keaslian)
 - **Kontrol** dibatasi oleh alam itu sendiri (jumlah emas di dalam bumi memang terbatas)
 
-The strength of commodity money is that no one can create it out of nothing.  
-Its weakness is that it is slow, heavy, and difficult to move across distance.
+Kekuatan uang komoditas adalah tidak ada siapa pun yang bisa menciptakannya begitu saja dari nol.
+Kelemahannya, uang jenis ini lambat, berat, dan sulit dipindahkan dalam jarak jauh.
 
 ##
 
