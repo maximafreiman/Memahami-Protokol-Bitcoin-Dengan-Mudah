@@ -60,6 +60,29 @@ Setiap beberapa menit, sistem mengumpulkan transaksi yang baru, lalu membuat sid
 Setiap catatan waktu baru juga memasukkan sidik jari dari catatan sebelumnya, sehingga terbentuk rantai yang saling terhubung.
 Kalau ada yang mencoba mengubah catatan lama, sidik jarinya akan berubah dan semua orang bisa langsung tahu.
 
-Jadi intinya: Timestamp server adalah cara Bitcoin memberi cap waktu pada transaksi dan menguncinya dalam rantai yang tidak bisa diubah tanpa ketahuan.
+Timestamp server adalah cara Bitcoin memberi cap waktu pada transaksi dan menguncinya dalam rantai yang tidak bisa diubah tanpa ketahuan.
+
+**5. Proof of Work**
+
+Sekarang bayangkan jaringan Bitcoin itu seperti lomba memecahkan teka-teki.
+
+Setiap komputer di jaringan berlomba mencari angka acak yang, ketika digabung dengan data transaksi lalu “diacak” (di-hash), hasilnya memenuhi aturan tertentu — misalnya hasilnya harus diawali dengan banyak nol. Mencari angka ini susah dan butuh listrik serta waktu, tapi mengeceknya sangat mudah. Kalau sudah ketemu, komputer itu berhak mengumumkan “blok” baru ke jaringan.
+
+Blok ini juga terkunci ke blok sebelumnya. Kalau seseorang mau mengubah satu blok lama, dia harus mengulang teka-teki itu bukan cuma untuk satu blok, tapi untuk semua blok setelahnya. Dan itu hampir mustahil kalau jaringan jujur lebih cepat.
+
+Soal “siapa yang menentukan kebenaran”:
+Bitcoin tidak pakai sistem “satu orang satu suara” atau “satu komputer satu suara”.
+Yang dipakai adalah siapa yang sudah mengeluarkan usaha paling besar.
+
+Rantai blok yang punya pekerjaan terbanyak (paling banyak teka-teki yang sudah dipecahkan) dianggap sebagai catatan yang benar oleh semua orang.
+
+Dan supaya sistem tetap stabil, jaringan menyesuaikan tingkat kesulitan teka-teki.
+Kalau komputer makin cepat dan blok jadi terlalu sering muncul, teka-tekinya dibuat lebih susah.
+Kalau komputer sedikit dan blok terlalu lama, teka-tekinya dibuat lebih mudah.
+
+Proof of Work membuat Bitcoin aman dengan mengubah kejujuran menjadi hal yang paling “murah”, dan kecurangan menjadi hal yang sangat “mahal”.
+
+<img width="354" height="87" alt="image" src="https://github.com/user-attachments/assets/115360fd-0190-49d3-b458-eebce28b7b7d" />
+
 
 (Akan segera update untuk lanjutan materi. Stay tune..)
