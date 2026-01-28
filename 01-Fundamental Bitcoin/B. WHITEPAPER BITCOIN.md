@@ -22,7 +22,7 @@ Isi dari Whitepaper ini ada 13 bagian
 - Perhitungan
 - Kesimpulan
 
-Semua yang ada di dalam Whitepaper dijelaskan dengan bahasa yang teknis, walaupun ada beberapa bagian yang disederhanakan. Tapi jangan khawatir! Per poin akan dijelaskan dengan sederhana.
+Semua yang ada di dalam Whitepaper dijelaskan dengan bahasa yang teknis, walaupun ada beberapa bagian yang disederhanakan. Tapi jangan khawatir! Per poin akan dijelaskan dengan sederhana. Jadi kita nggak perlu insecure atau takut karena lihat rumus dan bagan di whitepaper yang terkesan intimidatif untuk orang awam.
 
 --
 
