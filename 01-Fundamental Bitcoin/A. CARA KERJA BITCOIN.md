@@ -18,10 +18,10 @@ Emas, perak, kerang, dan barang langka lainnya menjadi uang karena mereka punya 
 - sulit dipalsukan
 - dan mahal untuk diproduksi
 
-In this system:
-- **Creation** happens through physical work (mining, refining, transport)  
-- **Verification** happens through human inspection (weight, purity, authenticity)  
-- **Control** is limited by nature itself (there is only so much gold in the ground)  
+Dalam sistem ini:
+- **Penciptaan** terjadi lewat kerja fisik (menambang, memurnikan, mengangkut)
+- **Verifikasi** dilakukan lewat pemeriksaan manusia (berat, kemurnian, keaslian)
+- **Kontrol** dibatasi oleh alam itu sendiri (jumlah emas di dalam bumi memang terbatas)
 
 The strength of commodity money is that no one can create it out of nothing.  
 Its weakness is that it is slow, heavy, and difficult to move across distance.
