@@ -26,12 +26,27 @@ Semua yang ada di dalam Whitepaper dijelaskan dengan bahasa yang teknis, walaupu
 
 --
 
-1. Abstrak
+**1. Abstrak**
 
 Disini dijelaskan dalam bentuk ringkasan satu halaman yang menjelaskan ide besar dan cara kerja utama Bitcoin secara garis besar. Disini dijelaskan, Bitcoin adalah sistem uang digital yang memungkinkan orang mengirim pembayaran langsung tanpa bank atau perantara, dengan keamanan dijaga oleh jaringan komputer global. Transaksi diamankan dengan tanda tangan kriptografi dan dicatat dalam blockchain melalui proof-of-work, sehingga catatannya sulit diubah. Rantai terpanjang dianggap sebagai kebenaran karena mewakili tenaga komputasi terbesar dan menjaga jaringan tetap aman dari kecurangan seperti pembelanjaan ganda.
 
-2. Pendahuluan
+**2. Pendahuluan**
 
-Saat ini, pembayaran di internet masih bergantung pada lembaga keuangan sebagai perantara yang harus dipercaya, tetapi sistem ini mahal, lambat, dan rawan penipuan karena transaksi bisa dibatalkan dan harus dimediasi. Akibatnya, transaksi kecil jadi tidak efisien dan pedagang harus mengumpulkan banyak data pelanggan untuk mengurangi risiko. Bitcoin menawarkan solusi dengan mengganti kepercayaan kepada pihak ketiga menjadi bukti kriptografi, sehingga dua orang bisa bertransaksi langsung dan aman. Dengan jaringan peer-to-peer dan sistem penanda waktu berbasis proof-of-work, transaksi dicatat secara berurutan dan hampir tidak bisa diubah, serta tetap aman selama mayoritas kekuatan komputasi dijalankan oleh node yang jujur.
+Disini dijelaskan kalau saat ini, pembayaran di internet masih bergantung pada lembaga keuangan sebagai perantara yang harus dipercaya, tetapi sistem ini mahal, lambat, dan rawan penipuan karena transaksi bisa dibatalkan dan harus dimediasi. Akibatnya, transaksi kecil jadi tidak efisien dan pedagang harus mengumpulkan banyak data pelanggan untuk mengurangi risiko. 
+
+Bitcoin menawarkan solusi dengan mengganti kepercayaan kepada pihak ketiga menjadi bukti kriptografi, sehingga dua orang bisa bertransaksi langsung dan aman. Dengan jaringan peer-to-peer dan sistem penanda waktu berbasis proof-of-work, transaksi dicatat secara berurutan dan hampir tidak bisa diubah, serta tetap aman selama mayoritas kekuatan komputasi dijalankan oleh node yang jujur.
+
+**3. Transaksi**
+
+Disini dijelaskan mekanisme transfer Bitcoin, dan bagaimana aktivitas transfer-menransfer ini diverifikasi. Jadi, setiap kali seseorang mengirim koin, dia “menandatangani” bukti bahwa koin itu sekarang milik orang berikutnya. Orang yang menerima bisa mengecek tanda tangan ini untuk memastikan koin itu benar-benar datang dari pemilik sebelumnya.
+
+Masalahnya: Seseorang bisa saja mencoba mengirim koin yang sama ke dua orang berbeda di waktu yang hampir bersamaan.
+
+Biasanya, di sistem bank, ada kantor pusat yang mengecek semua transaksi dan menentukan mana yang sah. Tapi kalau begitu, semua orang harus percaya pada kantor itu. Nah, Bitcoin memilih cara lain: Semua transaksi diumumkan ke seluruh jaringan komputer di dunia.
+
+Komputer-komputer ini bekerja bersama untuk sepakat transaksi mana yang datang lebih dulu.
+Transaksi yang diterima pertama oleh mayoritas komputer itulah yang dianggap sah, dan yang datang belakangan otomatis ditolak.
+
+Jadi intinya, Bitcoin tidak mencegah orang mencoba curang, tapi membuat jaringan global bersama-sama menentukan mana transaksi yang benar tanpa perlu bank atau pihak pusat.
 
 (Akan segera update untuk lanjutan materi. Stay tune..)
