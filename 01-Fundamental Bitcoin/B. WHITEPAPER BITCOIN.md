@@ -66,7 +66,7 @@ Timestamp server adalah cara Bitcoin memberi cap waktu pada transaksi dan mengun
 
 Sekarang bayangkan jaringan Bitcoin itu seperti lomba memecahkan teka-teki.
 
-Setiap komputer di jaringan berlomba mencari angka acak yang, ketika digabung dengan data transaksi lalu “diacak” (di-hash), hasilnya memenuhi aturan tertentu — misalnya hasilnya harus diawali dengan banyak nol. Mencari angka ini susah dan butuh listrik serta waktu, tapi mengeceknya sangat mudah. Kalau sudah ketemu, komputer itu berhak mengumumkan “blok” baru ke jaringan.
+Setiap komputer di jaringan berlomba mencari angka acak yang, ketika digabung dengan data transaksi lalu “diacak” (di-hash), hasilnya memenuhi aturan tertentu, misalnya hasilnya (hash) harus diawali dengan banyak nol. Mencari angka ini susah dan butuh listrik serta waktu, tapi mengeceknya sangat mudah. Kalau sudah ketemu, komputer itu berhak mengumumkan “blok” baru ke jaringan.
 
 Blok ini juga terkunci ke blok sebelumnya. Kalau seseorang mau mengubah satu blok lama, dia harus mengulang teka-teki itu bukan cuma untuk satu blok, tapi untuk semua blok setelahnya. Dan itu hampir mustahil kalau jaringan jujur lebih cepat.
 
@@ -84,5 +84,21 @@ Proof of Work membuat Bitcoin aman dengan mengubah kejujuran menjadi hal yang pa
 
 <img width="354" height="87" alt="image" src="https://github.com/user-attachments/assets/115360fd-0190-49d3-b458-eebce28b7b7d" />
 
+**6. Jaringan**
+
+Jaringan Bitcoin seperti banyak komputer yang bekerja sebagai satu tim besar.
+
+- Setiap kali ada transaksi baru, transaksi itu dikirim ke semua komputer di jaringan.
+- Setiap komputer mengumpulkan transaksi-transaksi baru dan menyusunnya menjadi satu paket yang disebut blok.
+- Semua komputer lalu berlomba memecahkan teka-teki matematika untuk mengamankan blok mereka.
+- Komputer yang berhasil pertama mengumumkan bloknya ke jaringan.
+- Komputer lain akan memeriksa blok itu. Jika semua transaksi di dalamnya valid dan belum pernah dipakai sebelumnya, blok tersebut diterima.
+- Setelah diterima, semua komputer membangun blok berikutnya di atas blok itu, sehingga terbentuk satu rantai.
+
+Kadang dua komputer bisa menemukan blok hampir bersamaan. Sebagian jaringan akan melihat versi A dulu, sebagian melihat versi B dulu.
+
+Dalam kondisi ini, semua komputer sementara mengikuti versi yang pertama mereka terima. Begitu ada blok baru berikutnya, rantai yang menjadi lebih panjang dianggap benar, dan semua komputer akan berpindah ke rantai itu.
+
+Transaksi tidak harus sampai ke semua komputer agar bisa masuk ke sistem. Selama sampai ke banyak komputer, transaksi itu akan segera masuk ke dalam sebuah blok. Kalau ada komputer yang ketinggalan satu blok, dia bisa meminta ulang saat melihat blok berikutnya dan sadar ada bagian yang terlewat.
 
 (Akan segera update untuk lanjutan materi. Stay tune..)
