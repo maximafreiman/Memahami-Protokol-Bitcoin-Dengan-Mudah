@@ -32,13 +32,13 @@ Disini dijelaskan dalam bentuk ringkasan satu halaman yang menjelaskan ide besar
 
 **2. Pendahuluan**
 
-Disini dijelaskan kalau saat ini, pembayaran di internet masih bergantung pada lembaga keuangan sebagai perantara yang harus dipercaya, tetapi sistem ini mahal, lambat, dan rawan penipuan karena transaksi bisa dibatalkan dan harus dimediasi. Akibatnya, transaksi kecil jadi tidak efisien dan pedagang harus mengumpulkan banyak data pelanggan untuk mengurangi risiko. 
+Saat ini, pembayaran di internet masih bergantung pada lembaga keuangan sebagai perantara yang harus dipercaya, tetapi sistem ini mahal, lambat, dan rawan penipuan karena transaksi bisa dibatalkan dan harus dimediasi. Akibatnya, transaksi kecil jadi tidak efisien dan pedagang harus mengumpulkan banyak data pelanggan untuk mengurangi risiko. 
 
 Bitcoin menawarkan solusi dengan mengganti kepercayaan kepada pihak ketiga menjadi bukti kriptografi, sehingga dua orang bisa bertransaksi langsung dan aman. Dengan jaringan peer-to-peer dan sistem penanda waktu berbasis proof-of-work, transaksi dicatat secara berurutan dan hampir tidak bisa diubah, serta tetap aman selama mayoritas kekuatan komputasi dijalankan oleh node yang jujur.
 
 **3. Transaksi**
 
-Disini dijelaskan mekanisme transfer Bitcoin, dan bagaimana aktivitas transfer-menransfer ini diverifikasi. Kita pakai analogi koin biar lebih simpel. Jadi, setiap kali seseorang mengirim koin, dia “menandatangani” bukti bahwa koin itu sekarang milik orang berikutnya. Orang yang menerima bisa mengecek tanda tangan ini untuk memastikan koin itu benar-benar datang dari pemilik sebelumnya.
+Ini adalah penjelasan mekanisme transfer Bitcoin, dan bagaimana aktivitas transfer-menransfer ini diverifikasi. Kita pakai analogi koin biar lebih simpel. Jadi, setiap kali seseorang mengirim koin, dia “menandatangani” bukti bahwa koin itu sekarang milik orang berikutnya. Orang yang menerima bisa mengecek tanda tangan ini untuk memastikan koin itu benar-benar datang dari pemilik sebelumnya.
 
 Masalahnya: Seseorang bisa saja mencoba mengirim koin yang sama ke dua orang berbeda di waktu yang hampir bersamaan.
 
