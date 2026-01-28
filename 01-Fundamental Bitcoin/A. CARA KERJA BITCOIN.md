@@ -4,13 +4,13 @@ Bagaimana Cara Kerja Bitcoin? Dibandingkan dengan Uang Komoditas dan Uang Fiat.
 Untuk memahami cara kerja Bitcoin, akan lebih mudah jika kita membandingkannya dengan dua jenis uang yang sebelumnya digunakan manusia:
 **uang komoditas** dan **uang fiat.**
 
-Each of them answers the same question in a different way:  
-**Who creates money, who controls it, and how do we know it is real?**
+Masing-masing menjawab pertanyaan yang sama dengan cara yang berbeda:
+**siapa yang menciptakan uang, siapa yang mengendalikannya, dan bagaimana kita tahu bahwa uang itu benar-benar asli?**
 
 
-### 1. Commodity Money (Gold, Silver, Physical Goods)
+### 1. Uang Komoditas (Emas, Perak, Barang Fisik)
 
-For most of history, money was something you could **touch**.
+Sepanjang sebagian besar sejarah, uang adalah sesuatu yang bisa kamu sentuh secara langsung.
 
 Gold, silver, shells, and other scarce goods became money because they had physical properties:
 - they were hard to find  
