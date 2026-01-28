@@ -101,4 +101,18 @@ Dalam kondisi ini, semua komputer sementara mengikuti versi yang pertama mereka 
 
 Transaksi tidak harus sampai ke semua komputer agar bisa masuk ke sistem. Selama sampai ke banyak komputer, transaksi itu akan segera masuk ke dalam sebuah blok. Kalau ada komputer yang ketinggalan satu blok, dia bisa meminta ulang saat melihat blok berikutnya dan sadar ada bagian yang terlewat.
 
+**7. Insentif**
+
+Di setiap blok, ada satu transaksi khusus di bagian paling awal. Yaitu transaksi "hadiah" kepada pembuat blok. Transaksi ini menciptakan koin baru dan langsung memberikannya kepada komputer yang berhasil membuat blok tersebut.
+
+Ini adalah hadiah supaya orang mau menjalankan komputer mereka untuk menjaga jaringan tetap berjalan, karena tidak ada bank atau kantor pusat yang membagikan koin.
+
+Proses ini mirip seperti menambang emas. Bukan menggali tanah, tapi menghabiskan waktu dan listrik komputer untuk “menghasilkan” koin baru.
+
+Selain dari koin baru, komputer atau mesin pembuat blok juga bisa mendapat biaya transaksi. Kalau seseorang mengirim 1 Bitcoin tapi hanya 0,99 Bitcoin yang sampai ke penerima, maka 0,01 Bitcoin sisanya jadi biaya untuk pembuat blok.
+
+Nanti, ketika jumlah koin baru sudah mencapai batas yang ditentukan (21 juta), hadiah koin baru akan berhenti. Setelah itu, pembuat blok hanya dibayar dari biaya transaksi, bukan dari koin baru lagi.
+
+Sistem hadiah ini juga mendorong kejujuran. Kalau seseorang punya komputer sangat kuat, dia bisa mencoba curang, tapi dalam jangka panjang dia akan dapat lebih banyak untung dengan mengikuti aturan, karena dia bisa terus mendapat hadiah dan biaya transaksi, tanpa merusak sistem yang memberi nilai pada koin yang dia miliki.
+
 (Akan segera update untuk lanjutan materi. Stay tune..)
