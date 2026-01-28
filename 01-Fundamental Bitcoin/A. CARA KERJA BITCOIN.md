@@ -1,8 +1,8 @@
-How Bitcoin Works? Compared to Commodity Money and Fiat Money.
+Bagaimana Cara Kerja Bitcoin? Dibandingkan dengan Uang Komoditas dan Uang Fiat.
 ---
 
-To understand how Bitcoin works, it helps to compare it with the two types of money humans have relied on before:  
-**commodity money** and **fiat money**.
+Untuk memahami cara kerja Bitcoin, akan lebih mudah jika kita membandingkannya dengan dua jenis uang yang sebelumnya digunakan manusia:
+**uang komoditas** dan **uang fiat.**
 
 Each of them answers the same question in a different way:  
 **Who creates money, who controls it, and how do we know it is real?**
