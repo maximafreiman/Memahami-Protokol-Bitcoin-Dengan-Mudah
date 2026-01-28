@@ -53,5 +53,13 @@ Jadi intinya, Bitcoin tidak mencegah orang mencoba curang, tapi membuat jaringan
 
 **4. Timestamp Server**
 
+Bayangkan ada papan pengumuman waktu digital.
+
+Setiap beberapa menit, sistem mengumpulkan transaksi yang baru, lalu membuat sidik jari digital (hash) dari kumpulan itu. Sidik jari ini diumumkan ke seluruh jaringan, jadi semua orang bisa melihat: “Pada waktu ini, data seperti ini benar-benar sudah ada.”
+
+Setiap catatan waktu baru juga memasukkan sidik jari dari catatan sebelumnya, sehingga terbentuk rantai yang saling terhubung.
+Kalau ada yang mencoba mengubah catatan lama, sidik jarinya akan berubah dan semua orang bisa langsung tahu.
+
+Jadi intinya: Timestamp server adalah cara Bitcoin memberi cap waktu pada transaksi dan menguncinya dalam rantai yang tidak bisa diubah tanpa ketahuan.
 
 (Akan segera update untuk lanjutan materi. Stay tune..)
