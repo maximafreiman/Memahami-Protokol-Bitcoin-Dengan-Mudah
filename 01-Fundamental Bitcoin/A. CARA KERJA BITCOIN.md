@@ -12,10 +12,11 @@ Masing-masing menjawab pertanyaan yang sama dengan cara yang berbeda:
 
 Sepanjang sebagian besar sejarah, uang adalah sesuatu yang bisa kamu sentuh secara langsung.
 
-Gold, silver, shells, and other scarce goods became money because they had physical properties:
-- they were hard to find  
-- hard to fake  
-- and costly to produce  
+Emas, perak, kerang, dan barang langka lainnya menjadi uang karena mereka punya sifat fisik tertentu:
+
+- sulit ditemukan
+- sulit dipalsukan
+- dan mahal untuk diproduksi
 
 In this system:
 - **Creation** happens through physical work (mining, refining, transport)  
