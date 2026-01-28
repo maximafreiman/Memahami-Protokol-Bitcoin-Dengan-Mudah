@@ -37,11 +37,11 @@ Dalam sistem ini:
 - **Verifikasi** dilakukan lewat otoritas yang dipercaya dan aturan hukum
 - **Kontrol** bersifat terpusat 
 
-Fiat money is fast, flexible, and easy to use in a modern economy.  
-But it depends entirely on **trust**:  
-trust that institutions will manage supply responsibly,  
-trust that records are accurate,  
-trust that access will remain available.
+Uang fiat itu cepat, fleksibel, dan mudah digunakan dalam ekonomi modern.
+Tapi semuanya bergantung pada kepercayaan:
+percaya bahwa lembaga akan mengelola jumlah uang dengan bertanggung jawab,
+percaya bahwa catatannya akurat,
+dan percaya bahwa aksesnya akan tetap tersedia.
 
 ##
 
