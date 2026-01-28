@@ -82,11 +82,11 @@ Tidak ada yang memilikinya.
 
 ##
 
-### How Value Moves
+### Bagaimana Nilai Berpindah
 
-In commodity systems, value moves by **physical transfer**.  
-In fiat systems, value moves by **institutional permission**.  
-In Bitcoin, value moves by **cryptographic proof**.
+Dalam sistem komoditas, nilai berpindah lewat **pemindahan fisik.**
+Dalam sistem fiat, nilai berpindah lewat **izin dari lembaga.**
+Dalam Bitcoin, nilai berpindah lewat **bukti kriptografi.**
 
 You do not ask for approval.  
 You present a valid signature.
