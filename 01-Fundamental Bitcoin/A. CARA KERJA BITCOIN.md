@@ -65,20 +65,20 @@ Tidak ada satu pihak pun yang bisa mengesampingkan sistem ini sendirian.
 
 ##
 
-### The Ledger Comparison
+### Perbandingan Buku Catatan Transaksi
 
-You can think of all three systems as different ways of keeping a ledger.
+Kamu bisa membayangkan ketiga sistem ini sebagai cara yang berbeda dalam menyimpan sebuah ledger atau buku catatan.
 
-With **commodity money**, the "ledger" is physical reality.  
-Whoever holds the gold, owns the value.
+Pada **uang komoditas**, “ledger”-nya adalah kenyataan fisik.
+Siapa pun yang memegang emas, dialah yang memiliki nilainya.
 
-With **fiat money**, the ledger is maintained by institutions.  
-Your balance exists in databases you do not control.
+Pada **uang fiat**, ledger dikelola oleh lembaga.
+Saldo kamu ada di dalam basis data yang tidak kamu kendalikan.
 
-With **Bitcoin**, the ledger is **public and shared**.  
-Anyone can download it.  
-Anyone can verify it.  
-No one owns it.
+Pada **Bitcoin**, ledger bersifat **publik dan dibagikan bersama**.
+Siapa pun bisa mengunduhnya.
+Siapa pun bisa memverifikasinya.
+Tidak ada yang memilikinya.
 
 ##
 
