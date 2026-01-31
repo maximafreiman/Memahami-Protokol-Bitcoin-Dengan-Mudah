@@ -30,11 +30,15 @@ Semua yang ada di dalam Whitepaper dijelaskan dengan bahasa yang teknis, walaupu
 
 Disini dijelaskan dalam bentuk ringkasan satu halaman yang menjelaskan ide besar dan cara kerja utama Bitcoin secara garis besar. Disini dijelaskan, Bitcoin adalah sistem uang digital yang memungkinkan orang mengirim pembayaran langsung tanpa bank atau perantara, dengan keamanan dijaga oleh jaringan komputer global. Transaksi diamankan dengan tanda tangan kriptografi dan dicatat dalam blockchain melalui proof-of-work, sehingga catatannya sulit diubah. Rantai terpanjang dianggap sebagai kebenaran karena mewakili tenaga komputasi terbesar dan menjaga jaringan tetap aman dari kecurangan seperti pembelanjaan ganda.
 
+--
+
 **2. Pendahuluan**
 
 Saat ini, pembayaran di internet masih bergantung pada lembaga keuangan sebagai perantara yang harus dipercaya, tetapi sistem ini mahal, lambat, dan rawan penipuan karena transaksi bisa dibatalkan dan harus dimediasi. Akibatnya, transaksi kecil jadi tidak efisien dan pedagang harus mengumpulkan banyak data pelanggan untuk mengurangi risiko. 
 
 Bitcoin menawarkan solusi dengan mengganti kepercayaan kepada pihak ketiga menjadi bukti kriptografi, sehingga dua orang bisa bertransaksi langsung dan aman. Dengan jaringan peer-to-peer dan sistem penanda waktu berbasis proof-of-work, transaksi dicatat secara berurutan dan hampir tidak bisa diubah, serta tetap aman selama mayoritas kekuatan komputasi dijalankan oleh node yang jujur.
+
+--
 
 **3. Transaksi**
 
@@ -51,6 +55,8 @@ Jadi intinya, Bitcoin tidak mencegah orang mencoba curang, tapi membuat jaringan
 
 <img width="492" height="267" alt="tx bitcoin" src="https://github.com/user-attachments/assets/6bdbdea7-6612-4bf2-9d77-e803abe4dc0f" />
 
+--
+
 **4. Timestamp Server**
 
 Bayangkan ada papan pengumuman waktu digital.
@@ -61,6 +67,8 @@ Setiap catatan waktu baru juga memasukkan sidik jari dari catatan sebelumnya, se
 Kalau ada yang mencoba mengubah catatan lama, sidik jarinya akan berubah dan semua orang bisa langsung tahu.
 
 Timestamp server adalah cara Bitcoin memberi cap waktu pada transaksi dan menguncinya dalam rantai yang tidak bisa diubah tanpa ketahuan.
+
+--
 
 **5. Proof of Work**
 
@@ -84,6 +92,8 @@ Proof of Work membuat Bitcoin aman dengan mengubah kejujuran menjadi hal yang pa
 
 <img width="354" height="87" alt="image" src="https://github.com/user-attachments/assets/115360fd-0190-49d3-b458-eebce28b7b7d" />
 
+--
+
 **6. Jaringan**
 
 Jaringan Bitcoin seperti banyak komputer yang bekerja sebagai satu tim besar.
@@ -101,6 +111,8 @@ Dalam kondisi ini, semua komputer sementara mengikuti versi yang pertama mereka 
 
 Transaksi tidak harus sampai ke semua komputer agar bisa masuk ke sistem. Selama sampai ke banyak komputer, transaksi itu akan segera masuk ke dalam sebuah blok. Kalau ada komputer yang ketinggalan satu blok, dia bisa meminta ulang saat melihat blok berikutnya dan sadar ada bagian yang terlewat.
 
+--
+
 **7. Insentif**
 
 Di setiap blok, ada satu transaksi khusus di bagian paling awal. Yaitu transaksi "hadiah" kepada pembuat blok. Transaksi ini menciptakan koin baru dan langsung memberikannya kepada komputer yang berhasil membuat blok tersebut.
@@ -114,5 +126,9 @@ Selain dari koin baru, komputer atau mesin pembuat blok juga bisa mendapat biaya
 Nanti, ketika jumlah koin baru sudah mencapai batas yang ditentukan (21 juta), hadiah koin baru akan berhenti. Setelah itu, pembuat blok hanya dibayar dari biaya transaksi, bukan dari koin baru lagi.
 
 Sistem hadiah ini juga mendorong kejujuran. Kalau seseorang punya komputer sangat kuat, dia bisa mencoba curang, tapi dalam jangka panjang dia akan dapat lebih banyak untung dengan mengikuti aturan, karena dia bisa terus mendapat hadiah dan biaya transaksi, tanpa merusak sistem yang memberi nilai pada koin yang dia miliki.
+
+--
+
+
 
 (Akan segera update untuk lanjutan materi. Stay tune..)
