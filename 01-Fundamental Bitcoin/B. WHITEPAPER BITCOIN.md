@@ -153,4 +153,14 @@ Jika jaringan dikuasai oleh penyerang, metode sederhana ini bisa dikelabui.
 
 Karena itu, untuk keamanan lebih tinggi, terutama bagi bisnis yang sering menerima pembayaran, menjalankan node sendiri tetap menjadi pilihan terbaik, karena bisa memeriksa semua transaksi secara langsung dan lebih cepat mendeteksi hal yang tidak wajar.
 
+--
+
+**10. Menggabungkan dan Memisahkan Nilai Transaksi**
+
+Daripada memperlakukan setiap “koin kecil” secara terpisah, Bitcoin menggabungkan dan memecah nilai dalam satu transaksi.
+Sebuah transaksi biasanya punya beberapa masukan (uang dari satu atau beberapa transaksi sebelumnya) dan dua keluaran:
+satu untuk penerima pembayaran, dan satu lagi untuk kembalian kembali ke pengirim jika ada sisa.
+
+Walaupun sebuah transaksi bisa bergantung pada banyak transaksi sebelumnya, itu tidak jadi masalah, karena jaringan tidak perlu melacak seluruh sejarah satu per satu. Cukup memastikan bahwa semua nilai yang dipakai memang berasal dari transaksi yang sah di blockchain.
+
 (Akan segera update untuk lanjutan materi. Stay tune..)
