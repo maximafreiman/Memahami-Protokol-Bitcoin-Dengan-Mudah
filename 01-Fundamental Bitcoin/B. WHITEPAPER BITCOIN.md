@@ -129,6 +129,18 @@ Sistem hadiah ini juga mendorong kejujuran. Kalau seseorang punya komputer sanga
 
 --
 
+**8. Ruang Penyimpanan**
+
+Bitcoin sejak awal dirancang supaya data lama tidak harus disimpan semuanya selamanya.
+Setelah sebuah transaksi terkubur cukup dalam oleh banyak blok di atasnya, detail transaksi itu bisa “diringkas” untuk menghemat ruang penyimpanan.
+
+Caranya, semua transaksi di dalam satu blok dirangkum menjadi satu “sidik jari digital” lewat struktur yang disebut Merkle Tree (cara menggabungkan banyak data menjadi satu hash utama yang mewakili semuanya). Yang disimpan di blok hanya hasil kesimpulan akhirnya saja dalam berbentuk kode hash, bukan semua isi transaksi.
+
+Karena itu, komputer yang ikut menjaga jaringan cukup menyimpan kepala blok yang sangat kecil, sekitar 80 byte per blok, yang dalam setahun hanya memakan beberapa megabyte.
+
+Satoshi lalu mengaitkan ini dengan Moore’s Law (pengamatan bahwa kemampuan komputer cenderung berlipat kira-kira setiap dua tahun, sehingga penyimpanan dan daya komputasi makin murah dan besar dari waktu ke waktu). Artinya, seiring teknologi berkembang, menyimpan dan memverifikasi Bitcoin seharusnya tidak menjadi beban berat bagi orang biasa.
+
+--
 
 
 (Akan segera update untuk lanjutan materi. Stay tune..)
