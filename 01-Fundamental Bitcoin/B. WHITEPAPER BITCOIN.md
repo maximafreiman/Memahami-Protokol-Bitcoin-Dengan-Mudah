@@ -142,5 +142,8 @@ Satoshi lalu mengaitkan ini dengan Moore’s Law (pengamatan bahwa kemampuan kom
 
 --
 
+**9. Verifikasi Pembayaran yang Sederhana**
+
+Seseorang bisa mengecek apakah pembayaran Bitcoin sudah diterima tanpa harus menjalankan komputer yang menyimpan dan memeriksa seluruh jaringan. Caranya, dia menyimpan kepala blok dari rantai terpanjang (daftar ringkas dari semua blok), lalu meminta bukti kecil dari jaringan berupa cabang Merkle (data singkat yang menghubungkan transaksi tertentu ke satu blok tertentu) untuk memastikan transaksi itu benar-benar sudah masuk ke dalam blockchain.
 
 (Akan segera update untuk lanjutan materi. Stay tune..)
