@@ -1,4 +1,4 @@
-Whitepaper Bitcoin
+Whitepaper Bitcoin (Simplifikasi)
 ---
 ![202211011450-main cropped_1667290056](https://github.com/user-attachments/assets/c705bc11-ff0a-4ff2-b2fc-0272b9561462)
 
