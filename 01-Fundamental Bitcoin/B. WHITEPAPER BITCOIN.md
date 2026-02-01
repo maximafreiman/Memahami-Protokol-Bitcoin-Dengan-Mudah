@@ -165,7 +165,7 @@ Walaupun sebuah transaksi bisa bergantung pada banyak transaksi sebelumnya, itu 
 
 --
 
-**Privasi**
+**11. Privasi**
 
 Perbankan tradisional menjaga privasi dengan membatasi siapa saja yang bisa melihat data transaksi.
 Bitcoin berbeda, karena semua transaksi bisa dilihat publik. Tapi privasi tetap dijaga dengan cara lain: identitas orangnya tidak ditampilkan, yang terlihat hanya alamat digitalnya (public key).
@@ -176,5 +176,43 @@ Ini mirip seperti bursa saham, di mana orang bisa melihat waktu dan jumlah trans
 Untuk perlindungan tambahan, pengguna disarankan memakai alamat baru setiap kali bertransaksi, supaya sulit menghubungkan banyak transaksi ke satu orang yang sama. Namun, dalam beberapa kasus, seperti saat satu transaksi memakai beberapa sumber dana sekaligus, masih bisa terlihat bahwa semuanya kemungkinan milik orang yang sama.
 
 Artinya, privasi di Bitcoin itu bukan menghilangkan jejak, tapi menjaga jarak antara transaksi dan identitas manusia di baliknya.
+
+--
+
+** 12. Perhitungan Level Keamanan**
+
+Bagian ini menjelaskan seberapa sulit bagi penyerang untuk “mengejar” dan mengubah transaksi yang sudah masuk ke blockchain.
+
+Bayangkan ada dua jalur balapan:
+
+- Jalur jujur = jaringan normal yang terus menambah blok
+
+- Jalur penyerang = penyerang yang diam-diam mencoba membuat rantai versinya sendiri
+
+Setiap kali jaringan jujur menambah satu blok, penyerang semakin tertinggal.
+Penyerang hanya bisa berhasil kalau dia beruntung dan cukup kuat untuk menyusul dan melewati jaringan jujur.
+
+Intinya:
+
+Semakin banyak blok yang ditambahkan setelah transaksi kamu, semakin kecil peluang penyerang bisa membalikkan transaksi itu.
+Peluangnya tidak turun pelan-pelan, tapi jatuh sangat cepat — seperti peluang menang lotre yang makin kecil setiap menit kamu menunggu.
+
+Karena itu, Bitcoin punya konsep “konfirmasi”:
+
+- 1 konfirmasi = transaksi sudah masuk ke satu blok
+
+- 6 konfirmasi = transaksi sudah “terkunci” sangat kuat secara praktis
+
+Soal kunci baru dan transaksi paralel, maknanya sederhana:
+Penerima pembayaran membuat transaksi tidak bisa diprediksi lebih dulu oleh pengirim, sehingga penyerang tidak bisa menyiapkan rantai palsu dari jauh-jauh hari.
+
+Kesimpulan besarnya:
+
+Bitcoin tidak bergantung pada “tidak mungkin diserang”,
+tapi pada fakta bahwa biaya, usaha, dan keberuntungan yang dibutuhkan untuk menyerang akan menjadi tidak masuk akal setelah beberapa blok berlalu.
+
+--
+
+
 
 (Akan segera update untuk lanjutan materi. Stay tune..)
