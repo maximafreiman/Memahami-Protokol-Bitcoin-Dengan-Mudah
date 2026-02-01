@@ -226,4 +226,11 @@ mereka mendukung blok yang benar dengan melanjutkannya, dan menolak blok yang sa
 Intinya:
 Keamanan dan kepercayaan Bitcoin lahir dari kesepakatan bersama dan matematika, bukan dari otoritas atau janji manusia.
 
-(Akan segera update untuk lanjutan materi. Stay tune..)
+---
+
+And that is the simplified version of all the explanations contained in the Bitcoin Whitepaper. All of the mathematical and technical aspects have been explained in a simple way.
+
+To view the original Bitcoin Whitepaper written by Satoshi Nakamoto, you can see it here:
+
+https://bitcoin.org/bitcoin.pdf
+
