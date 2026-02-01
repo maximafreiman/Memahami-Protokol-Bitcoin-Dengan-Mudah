@@ -146,4 +146,11 @@ Satoshi lalu mengaitkan ini dengan Moore’s Law (pengamatan bahwa kemampuan kom
 
 Seseorang bisa mengecek apakah pembayaran Bitcoin sudah diterima tanpa harus menjalankan komputer yang menyimpan dan memeriksa seluruh jaringan. Caranya, dia menyimpan kepala blok dari rantai terpanjang (daftar ringkas dari semua blok), lalu meminta bukti kecil dari jaringan berupa cabang Merkle (data singkat yang menghubungkan transaksi tertentu ke satu blok tertentu) untuk memastikan transaksi itu benar-benar sudah masuk ke dalam blockchain.
 
+Dengan begitu, dia bisa melihat bahwa transaksi tersebut benar-benar sudah masuk ke dalam blockchain dan bahwa blok-blok baru terus ditambahkan setelahnya, yang berarti jaringan menerima pembayaran itu.
+
+Namun, cara ini bergantung pada kejujuran mayoritas jaringan.
+Jika jaringan dikuasai oleh penyerang, metode sederhana ini bisa dikelabui.
+
+Karena itu, untuk keamanan lebih tinggi, terutama bagi bisnis yang sering menerima pembayaran, menjalankan node sendiri tetap menjadi pilihan terbaik, karena bisa memeriksa semua transaksi secara langsung dan lebih cepat mendeteksi hal yang tidak wajar.
+
 (Akan segera update untuk lanjutan materi. Stay tune..)
