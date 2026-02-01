@@ -213,6 +213,17 @@ tapi pada fakta bahwa biaya, usaha, dan keberuntungan yang dibutuhkan untuk meny
 
 --
 
+**13. Kesimpulan**
 
+Bitcoin adalah sistem uang digital yang tidak bergantung pada kepercayaan kepada siapa pun.
+Kepemilikan dijaga oleh tanda tangan digital, dan kecurangan seperti memakai uang dua kali dicegah oleh jaringan komputer yang saling terhubung dan mencatat transaksi lewat proof-of-work.
+
+Jaringan ini tidak punya pusat dan tidak butuh identitas. Komputer bisa datang dan pergi kapan saja, lalu menerima rantai terpanjang sebagai sejarah bersama yang sah.
+
+Setiap komputer “memilih” bukan dengan suara, tapi dengan daya komputasi:
+mereka mendukung blok yang benar dengan melanjutkannya, dan menolak blok yang salah dengan mengabaikannya.
+
+Intinya:
+Keamanan dan kepercayaan Bitcoin lahir dari kesepakatan bersama dan matematika, bukan dari otoritas atau janji manusia.
 
 (Akan segera update untuk lanjutan materi. Stay tune..)
