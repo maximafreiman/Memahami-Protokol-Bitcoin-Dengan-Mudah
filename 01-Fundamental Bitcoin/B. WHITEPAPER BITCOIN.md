@@ -228,9 +228,9 @@ Keamanan dan kepercayaan Bitcoin lahir dari kesepakatan bersama dan matematika, 
 
 ---
 
-And that is the simplified version of all the explanations contained in the Bitcoin Whitepaper. All of the mathematical and technical aspects have been explained in a simple way.
+Ya demikianlah simplifikasi dari semua penjelasan yang ada di dalam Whitepaper Bitcoin. Semua hal yang bersifat matematis dan teknis sudah dijelaskan dengan sederhana. Untuk melihat dokumen asli Whitepaper Bitcoin yang ditulis oleh Satoshi Nakamoto, bisa dilihat disini:
 
-To view the original Bitcoin Whitepaper written by Satoshi Nakamoto, you can see it here:
+https://bitcoin.org/files/bitcoin-paper/bitcoin_id.pdf (versi terjemahan oleh Christopher Tahir, Gregorius Airlangga & K Hendrawan) 
 
 https://bitcoin.org/bitcoin.pdf
 
