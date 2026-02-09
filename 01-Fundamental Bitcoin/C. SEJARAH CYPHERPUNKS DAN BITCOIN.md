@@ -7,3 +7,7 @@ Dari Cypherpunks ke Bitcoin. Sebuah Sejarah yang Saling Terhubung
 
 
 Setiap era teknologi selalu membawa janji kebebasan, dan bersamaan dengan itu, ancaman pengawasan. Ketika komputer mulai terhubung satu sama lain dan membentuk jaringan global, muncul pertanyaan yang sederhana namun mendasar: siapa yang berkuasa di dunia digital?
+
+Negara, korporasi, dan lembaga keuangan dengan cepat memahami potensi kontrol yang lahir dari teknologi jaringan. Sementara itu, sekelompok kecil ilmuwan dan programmer melihat sisi lain dari masalah yang sama—bahwa tanpa perlindungan teknis, individu akan kehilangan otonomi.
+
+Dari kegelisahan inilah cerita cypherpunks dimulai.
