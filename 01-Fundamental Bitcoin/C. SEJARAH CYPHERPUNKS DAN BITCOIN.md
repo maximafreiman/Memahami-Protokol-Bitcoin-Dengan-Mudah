@@ -44,3 +44,17 @@ Sementara itu, `John Gilmore` memastikan bahwa gagasan-gagasan ini tidak berhent
 
 Perlahan, sebuah prinsip bersama terbentuk: jika ingin mengubah struktur kekuasaan, ubah arsitektur sistemnya.
 
+**4. Puzzle yang Belum Lengkap: Eksperimen Uang Tanpa Negara**
+
+Memasuki akhir 1990-an, cypherpunks mulai mencoba menjawab pertanyaan yang paling sulit: bisakah uang benar-benar lepas dari otoritas pusat?
+
+`Adam Back` memberikan satu potongan penting melalui Hashcash. Ia menunjukkan bahwa kerja komputasi dapat digunakan sebagai penghalang serangan dan alat pengendali sistem. Konsep ini sederhana, tetapi memiliki implikasi besar.
+
+`Wei Dai` kemudian merancang b-money, sebuah gambaran tentang ekonomi digital tanpa bank dan tanpa identitas resmi. Sistem ini tidak pernah diimplementasikan, tetapi idenya menyebar dan diperdebatkan.
+
+`Nick Szabo` menambahkan dimensi lain. Ia memperkenalkan Bit Gold dan menyoroti masalah kelangkaan digital. Bagaimana sesuatu yang bisa disalin tanpa batas tetap memiliki nilai? Jawabannya, menurut Szabo, terletak pada kriptografi, waktu, dan biaya komputasi.
+
+Setiap eksperimen ini gagal sebagai sistem utuh. Namun kegagalan mereka bersifat konstruktif—masing-masing meninggalkan satu bagian penting dari solusi.
+
+
+
