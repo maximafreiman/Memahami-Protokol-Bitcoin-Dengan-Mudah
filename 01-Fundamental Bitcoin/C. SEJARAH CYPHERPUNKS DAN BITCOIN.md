@@ -21,3 +21,9 @@ Pada 1970-an, komputer masih dianggap alat institusional. Keamanan informasi ada
 Untuk pertama kalinya, keamanan tidak lagi bergantung pada kepercayaan atau otoritas. Matematika mengambil alih peran tersebut.
 
 Inovasi ini bukan hanya soal enkripsi pesan. Ia membuka kemungkinan kepemilikan digital—konsep bahwa seseorang dapat memiliki sesuatu di jaringan tanpa perlu penjaga pusat. Gagasan inilah yang kelak menjadi tulang punggung Bitcoin.
+
+**2. Uang Digital dan Kegagalan yang Mengajarkan Banyak Hal**
+
+Beberapa tahun kemudian, David Chaum melangkah lebih jauh. Jika pesan bisa diamankan, mengapa uang tidak? Chaum membayangkan sistem uang digital yang melindungi privasi penggunanya, dan ia membuktikan bahwa hal itu mungkin secara teknis.
+
+Namun DigiCash, proyek Chaum, gagal bertahan. Bukan karena teknologinya lemah, melainkan karena ia masih bergantung pada satu entitas pusat. Ketika perusahaan itu runtuh, sistem pun ikut mati.
