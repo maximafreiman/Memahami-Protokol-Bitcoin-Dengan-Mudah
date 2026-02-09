@@ -11,3 +11,11 @@ Setiap era teknologi selalu membawa janji kebebasan, dan bersamaan dengan itu, a
 Negara, korporasi, dan lembaga keuangan dengan cepat memahami potensi kontrol yang lahir dari teknologi jaringan. Sementara itu, sekelompok kecil ilmuwan dan programmer melihat sisi lain dari masalah yang sama—bahwa tanpa perlindungan teknis, individu akan kehilangan otonomi.
 
 Dari kegelisahan inilah cerita cypherpunks dimulai.
+
+--
+
+**1. Fondasi Awal: Mengamankan Komunikasi di Dunia Terbuka**
+
+Pada 1970-an, komputer masih dianggap alat institusional. Keamanan informasi adalah urusan militer dan negara. Namun situasi ini berubah ketika Whitfield Diffie dan Martin Hellman memperkenalkan kriptografi kunci publik.
+
+Untuk pertama kalinya, keamanan tidak lagi bergantung pada kepercayaan atau otoritas. Matematika mengambil alih peran tersebut.
