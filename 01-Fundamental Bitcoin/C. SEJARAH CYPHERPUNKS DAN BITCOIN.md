@@ -19,3 +19,5 @@ Dari kegelisahan inilah cerita cypherpunks dimulai.
 Pada 1970-an, komputer masih dianggap alat institusional. Keamanan informasi adalah urusan militer dan negara. Namun situasi ini berubah ketika Whitfield Diffie dan Martin Hellman memperkenalkan kriptografi kunci publik.
 
 Untuk pertama kalinya, keamanan tidak lagi bergantung pada kepercayaan atau otoritas. Matematika mengambil alih peran tersebut.
+
+Inovasi ini bukan hanya soal enkripsi pesan. Ia membuka kemungkinan kepemilikan digital—konsep bahwa seseorang dapat memiliki sesuatu di jaringan tanpa perlu penjaga pusat. Gagasan inilah yang kelak menjadi tulang punggung Bitcoin.
