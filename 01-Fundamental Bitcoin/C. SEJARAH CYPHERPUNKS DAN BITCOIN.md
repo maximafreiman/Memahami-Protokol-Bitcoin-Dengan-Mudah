@@ -40,5 +40,7 @@ Pada awal 1990-an, kegelisahan yang sama mempertemukan banyak pemikir dalam sebu
 
 `Eric Hughes` kemudian merumuskan kegelisahan ini dalam bahasa yang lebih tenang namun tajam. Ia menegaskan bahwa privasi bukan tentang menyembunyikan kesalahan, melainkan tentang hak untuk memilih apa yang dibagikan.
 
+Sementara itu, `John Gilmore` memastikan bahwa gagasan-gagasan ini tidak berhenti di tataran ide. Baginya, sistem harus dibangun sedemikian rupa sehingga sensor dianggap sebagai gangguan teknis, bukan keputusan politik.
 
+Perlahan, sebuah prinsip bersama terbentuk: jika ingin mengubah struktur kekuasaan, ubah arsitektur sistemnya.
 
