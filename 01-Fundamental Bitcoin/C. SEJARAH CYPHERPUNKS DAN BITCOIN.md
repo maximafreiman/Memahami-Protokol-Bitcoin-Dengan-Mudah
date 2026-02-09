@@ -8,7 +8,7 @@ Dari Cypherpunks ke Bitcoin. Sebuah Sejarah yang Saling Terhubung
 
 Setiap era teknologi selalu membawa janji kebebasan, dan bersamaan dengan itu, ancaman pengawasan. Ketika komputer mulai terhubung satu sama lain dan membentuk jaringan global, muncul pertanyaan yang sederhana namun mendasar: siapa yang berkuasa di dunia digital?
 
-Negara, korporasi, dan lembaga keuangan dengan cepat memahami potensi kontrol yang lahir dari teknologi jaringan. Sementara itu, sekelompok kecil ilmuwan dan programmer melihat sisi lain dari masalah yang sama—bahwa tanpa perlindungan teknis, individu akan kehilangan otonomi.
+Negara, korporasi, dan lembaga keuangan dengan cepat memahami potensi kontrol yang lahir dari teknologi jaringan. Sementara itu, sekelompok kecil ilmuwan dan programmer melihat sisi lain dari masalah yang sama bahwa tanpa perlindungan teknis, individu akan kehilangan otonomi.
 
 Dari kegelisahan inilah cerita cypherpunks dimulai.
 
@@ -27,3 +27,18 @@ Inovasi ini bukan hanya soal enkripsi pesan. Ia membuka kemungkinan kepemilikan 
 Beberapa tahun kemudian, David Chaum melangkah lebih jauh. Jika pesan bisa diamankan, mengapa uang tidak? Chaum membayangkan sistem uang digital yang melindungi privasi penggunanya, dan ia membuktikan bahwa hal itu mungkin secara teknis.
 
 Namun DigiCash, proyek Chaum, gagal bertahan. Bukan karena teknologinya lemah, melainkan karena ia masih bergantung pada satu entitas pusat. Ketika perusahaan itu runtuh, sistem pun ikut mati.
+
+Kegagalan ini meninggalkan pelajaran penting bagi generasi berikutnya:
+
+"selama masih ada pusat kendali, kebebasan digital selalu rapuh."
+
+**3. Cypherpunks: Ketika Filosofi Bertemu Kode**
+
+Pada awal 1990-an, kegelisahan yang sama mempertemukan banyak pemikir dalam sebuah mailing list sederhana. Mereka menyebut diri mereka cypherpunks.
+
+`Timothy C. May` adalah suara paling keras di antara mereka. Ia memandang kriptografi bukan sekadar alat teknis, melainkan alat pembebasan politik. Dunia yang ia bayangkan adalah dunia di mana transaksi, komunikasi, dan identitas tidak bisa dikendalikan oleh negara.
+
+`Eric Hughes` kemudian merumuskan kegelisahan ini dalam bahasa yang lebih tenang namun tajam. Ia menegaskan bahwa privasi bukan tentang menyembunyikan kesalahan, melainkan tentang hak untuk memilih apa yang dibagikan.
+
+
+
