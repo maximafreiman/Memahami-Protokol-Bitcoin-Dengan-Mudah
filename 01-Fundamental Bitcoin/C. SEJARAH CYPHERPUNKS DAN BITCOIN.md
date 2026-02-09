@@ -20,7 +20,7 @@ Pada 1970-an, komputer masih dianggap alat institusional. Keamanan informasi ada
 
 Untuk pertama kalinya, keamanan tidak lagi bergantung pada kepercayaan atau otoritas. Matematika mengambil alih peran tersebut.
 
-Inovasi ini bukan hanya soal enkripsi pesan. Ia membuka kemungkinan kepemilikan digital—konsep bahwa seseorang dapat memiliki sesuatu di jaringan tanpa perlu penjaga pusat. Gagasan inilah yang kelak menjadi tulang punggung Bitcoin.
+Inovasi ini bukan hanya soal enkripsi pesan. Ia membuka kemungkinan kepemilikan digital, konsep bahwa seseorang dapat memiliki sesuatu di jaringan tanpa perlu penjaga pusat. Gagasan inilah yang kelak menjadi tulang punggung Bitcoin.
 
 **2. Uang Digital dan Kegagalan yang Mengajarkan Banyak Hal**
 
@@ -54,7 +54,7 @@ Memasuki akhir 1990-an, cypherpunks mulai mencoba menjawab pertanyaan yang palin
 
 `Nick Szabo` menambahkan dimensi lain. Ia memperkenalkan Bit Gold dan menyoroti masalah kelangkaan digital. Bagaimana sesuatu yang bisa disalin tanpa batas tetap memiliki nilai? Jawabannya, menurut Szabo, terletak pada kriptografi, waktu, dan biaya komputasi.
 
-Setiap eksperimen ini gagal sebagai sistem utuh. Namun kegagalan mereka bersifat konstruktif—masing-masing meninggalkan satu bagian penting dari solusi.
+Setiap eksperimen ini gagal sebagai sistem utuh. Namun kegagalan mereka bersifat konstruktif, masing-masing meninggalkan satu bagian penting dari solusi.
 
 **5. Hal Finney: Jembatan Menuju Implementasi**
 
@@ -84,7 +84,7 @@ Penutup: Sebuah Cerita yang Belum Selesai
 
 Cypherpunks sering digambarkan sebagai kelompok kecil di pinggiran sejarah teknologi. Namun gagasan mereka kini berjalan setiap sepuluh menit, dicatat dalam blok-blok yang tidak bisa diubah.
 
-Bitcoin bukan akhir dari cerita ini, melainkan bab pertama yang berhasil diwujudkan sepenuhnya. Ia membuktikan bahwa ide-ide cypherpunks bukan utopia—mereka hanya menunggu arsitektur yang tepat.
+Bitcoin bukan akhir dari cerita ini, melainkan bab pertama yang berhasil diwujudkan sepenuhnya. Ia membuktikan bahwa ide-ide cypherpunks bukan utopia, mereka hanya menunggu arsitektur yang tepat.
 
 Dan seperti semua sistem terbuka, kelanjutannya tidak lagi ditentukan oleh satu nama, tetapi oleh semua orang yang memilih untuk menjalankannya.
 
