@@ -56,5 +56,35 @@ Memasuki akhir 1990-an, cypherpunks mulai mencoba menjawab pertanyaan yang palin
 
 Setiap eksperimen ini gagal sebagai sistem utuh. Namun kegagalan mereka bersifat konstruktif—masing-masing meninggalkan satu bagian penting dari solusi.
 
+**5. Hal Finney: Jembatan Menuju Implementasi**
 
+Di antara semua tokoh ini, Hal Finney memiliki posisi unik. Ia tidak hanya memahami teori, tetapi juga aktif menguji sistem-sistem yang ada. Ia melihat apa yang bekerja, dan apa yang tidak.
+
+Ketika sebuah ide baru tentang uang digital muncul di milis kriptografi pada tahun 2008, Finney termasuk orang pertama yang langsung memahami potensinya. Ia tidak bertanya apakah sistem ini sempurna; ia bertanya apakah sistem ini bisa berjalan.
+
+**6. Satoshi Nakamoto: Penyatu Semua Gagasan**
+
+Satoshi Nakamoto tidak muncul sebagai revolusioner yang berteriak paling keras. Ia hadir dengan tenang, membawa sebuah makalah sembilan halaman, dan sebuah implementasi yang langsung bisa diuji.
+
+Keunikan Satoshi terletak pada kemampuannya melihat hubungan antar-gagasan yang sebelumnya terpisah:
+
+Proof of work sebagai mekanisme keamanan
+
+Rantai blok sebagai catatan sejarah
+
+Jaringan peer-to-peer sebagai pengganti otoritas pusat
+
+Aturan konsensus sebagai hukum yang ditegakkan mesin
+
+Bitcoin bukan sekadar uang digital. Ia adalah sistem yang tetap berfungsi bahkan ketika para penciptanya menghilang.
+
+--
+
+Penutup: Sebuah Cerita yang Belum Selesai
+
+Cypherpunks sering digambarkan sebagai kelompok kecil di pinggiran sejarah teknologi. Namun gagasan mereka kini berjalan setiap sepuluh menit, dicatat dalam blok-blok yang tidak bisa diubah.
+
+Bitcoin bukan akhir dari cerita ini, melainkan bab pertama yang berhasil diwujudkan sepenuhnya. Ia membuktikan bahwa ide-ide cypherpunks bukan utopia—mereka hanya menunggu arsitektur yang tepat.
+
+Dan seperti semua sistem terbuka, kelanjutannya tidak lagi ditentukan oleh satu nama, tetapi oleh semua orang yang memilih untuk menjalankannya.
 
