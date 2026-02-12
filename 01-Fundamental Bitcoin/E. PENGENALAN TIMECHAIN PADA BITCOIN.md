@@ -11,6 +11,8 @@ Apa yang membedakan konsep timechain dengan blockchain? Jawabannya adalah:
 
 Sudah memahami? Okay lanjut.
 
+--
+
 Sebelum aku mulai masuk ke inti pembahasan, aku akan buka pembahasan ini dengan 1 kalimat:
 
 
