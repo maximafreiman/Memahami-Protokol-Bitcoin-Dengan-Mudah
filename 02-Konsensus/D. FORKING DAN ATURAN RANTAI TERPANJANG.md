@@ -3,7 +3,7 @@ Forking dan Aturan Rantai Terpanjang
 
 Sekarang, bayangkan situasi ini: Ada dua penambang di dua negara (kita pakai nama negara fiktif sebagai contoh), satu di Genovia dan satu di Kashfarstan. Secara ajaib, keduanya menemukan "angka ajaib" (Proof of Work) di detik yang hampir bersamaan.
 
-Keduanya berteriak ke jaringan: "Aku pemenangnya! Ini catatan transaksiku!" Inilah yang disebut sebagai Fork (percabangan). Sebagian komputer di dunia mengikuti si Genovia, sebagian lagi mengikuti si Kahsfarstan. Konsensus (kesepakatan tunggal) pun terbelah dua. Bagaimana Bitcoin menyatukannya kembali?
+Keduanya berteriak ke jaringan: "Aku pemenangnya! Ini catatan transaksiku!" Inilah yang disebut sebagai Fork (percabangan). Sebagian komputer di dunia mengikuti si Genovia, sebagian lagi mengikuti si Kashfarstan. Konsensus (kesepakatan tunggal) pun terbelah dua. Bagaimana Bitcoin menyatukannya kembali?
 
 --
 
