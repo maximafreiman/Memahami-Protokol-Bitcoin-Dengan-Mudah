@@ -26,3 +26,25 @@ Begini prosesnya secara sederhana:
 --
 
 Analogi Sederhana: Bayangkan ada dua gosip yang beredar. Kamu bingung mana yang benar. Tapi kemudian, gosip pertama memiliki bukti foto dan saksi yang jauh lebih lengkap dan panjang ceritanya. Secara logis, kamu akan meninggalkan gosip kedua dan mengikuti versi yang punya bukti lebih kuat.
+
+--
+
+**Apa yang Terjadi pada Transaksi di "Jalur yang Dibuang"?**
+
+Blok yang dibuang ini disebut sebagai Orphan Block (Blok Yatim Piatu).
+
+Transaksi di dalamnya tidak hilang, tapi dianggap tidak pernah terjadi di jalur utama.
+
+Transaksi tersebut akan masuk kembali ke antrean (Mempool) untuk dicatat di blok berikutnya.
+
+Inilah alasan mengapa jika Anda menerima Bitcoin, Anda disarankan menunggu 6 konfirmasi (6 blok baru setelah transaksi Anda). Mengapa? Karena setelah 6 blok, hampir mustahil ada rantai lain yang bisa menyalip panjangnya rantai tersebut.
+
+--
+
+**Mengapa Ini Penting bagi Konsensus?**
+
+1. Aturan rantai terpanjang memastikan bahwa:
+
+2. Hanya ada satu kebenaran: Meskipun sempat ada "perdebatan" singkat, jaringan akan selalu kembali ke satu buku catatan tunggal.
+
+Kekuatan Mayoritas: Rantai yang paling panjang mencerminkan di mana mayoritas energi listrik (Hash Power) dunia berada.
