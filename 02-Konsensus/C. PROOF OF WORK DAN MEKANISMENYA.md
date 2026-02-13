@@ -27,9 +27,11 @@ Begitu angka itu ditemukan, itulah Proof of Work-nya. Penambang menunjukkan angk
 Dengan Proof of Work, sistem desentralisasi akan terjaga dengan dua hal ini:
 
 1. Mencegah "Spam" dan Penipuan
+
 Jika mencatat transaksi itu gratis dan mudah, penipu akan mengirim jutaan pesan palsu untuk membingungkan jaringan. Dengan PoW, setiap pesan punya "biaya". Penipu harus membayar listrik mahal untuk setiap percobaan bohongnya. Jika dia gagal (dan pasti gagal karena kalah jumlah komputer), dia rugi uang.
 
 2. Menentukan Urutan Waktu (Timestamp)
+
 Dalam sistem tanpa pusat, sulit menentukan siapa yang transaksi duluan. PoW berfungsi sebagai stempel waktu digital. Karena menebak angka itu butuh waktu (rata-rata 10 menit), blok-blok transaksi jadi tersusun rapi satu demi satu seperti rantai yang tidak bisa diacak-acak.
 
 --
