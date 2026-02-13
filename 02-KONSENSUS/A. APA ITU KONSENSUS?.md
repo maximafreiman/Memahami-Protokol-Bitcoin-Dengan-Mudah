@@ -13,11 +13,9 @@ Bayangkan ada 1.000 komputer yang mencatat buku tabungan yang sama. Jika kompute
 
 Maka, konsensus teknologi harus memenuhi tiga syarat utama:
 
-**- Termination:** Setiap node yang jujur pada akhirnya harus memutuskan suatu nilai (tidak boleh menggantung selamanya).
-
-**- Agreement:** Semua node yang jujur harus memutuskan nilai yang sama.
-
-**- Validity:** Nilai yang disepakati haruslah nilai yang memang diusulkan oleh salah satu node (bukan muncul tiba-tiba dari kegelapan).
+- **Termination:** Setiap node yang jujur pada akhirnya harus memutuskan suatu nilai (tidak boleh menggantung selamanya).
+- **Agreement:** Semua node yang jujur harus memutuskan nilai yang sama.
+- **Validity:** Nilai yang disepakati haruslah nilai yang memang diusulkan oleh salah satu node (bukan muncul tiba-tiba dari kegelapan).
 
 --
 
