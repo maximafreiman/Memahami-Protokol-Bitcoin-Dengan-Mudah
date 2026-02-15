@@ -8,3 +8,5 @@ Bayangkan Bitcoin bukan sebagai deretan angka di buku tabungan, melainkan sepert
 Aku akan coba simplifikasi dengan sederhana. Kita bisa gambarkan UTXO ini seperti sebuah... kupon. Ya, bitcoiner kebanyakan akan menggambarkan UTXO dengan pendekatan yang lain. Seperti koin emas, uang cash, dan medium penggambaran lainnya. Well, itu sudah tepat. Dan disini, aku ingin menggambarkan UTXO secara konseptual dengan pendekatan "kupon emas yang langka" tapi bisa dipecah secara nilai untuk efisiensi transaksi. 
 
 Bentukannya kurang lebih seperti ini:
+
+(Selanjutnya, menyusul.. karena perlu waktu untuk mensimplifikasi sesuatu yg kompleks agar mudah untuk dipahami)
