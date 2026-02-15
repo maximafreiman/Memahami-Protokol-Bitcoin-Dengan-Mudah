@@ -25,6 +25,20 @@ tanpa jargon yang tidak perlu dan tanpa mencampurkannya dengan “kripto”.
 Materinya disusun secara bertahap dan dapat diverifikasi secara mandiri.
 ---
 
+| No | Tema | Topik |
+|----|-------|-----------|
+| 1  | Fundamental Bitcoin | Cara Kerja Bitcoin, Whitepaper Bitcoin, Sejarah |
+| 2  | Konsensus | Pengertian, Byzantine Generals Problem, Proof of Work, Fork, 21 Juta Bitcoin |
+| 3  | Transaksi | UTXO, Script |
+
+
+
+
+
+
+
+---
+
 ## License
 
 Semua konten ini berlisensi: 
