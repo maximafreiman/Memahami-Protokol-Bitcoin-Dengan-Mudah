@@ -31,7 +31,7 @@ Materinya disusun secara bertahap dan dapat diverifikasi secara mandiri.
 | 2  | Konsensus | Pengertian, Byzantine Generals Problem, Proof of Work, Fork, 21 Juta Bitcoin |
 | 3  | Transaksi | UTXO, Script |
 
-
+yang lain masih menyusul ya cuy.. Stay tune!
 
 
 
