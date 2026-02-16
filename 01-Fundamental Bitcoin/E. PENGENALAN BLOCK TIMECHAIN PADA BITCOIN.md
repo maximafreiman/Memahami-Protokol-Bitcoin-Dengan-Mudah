@@ -1,4 +1,4 @@
-Pengenalan Timechain pada Bitcoin
+Pengenalan Block dan Timechain pada Bitcoin
 --
 
 Sekarang, kita akan masuk ke bagian yang paling penting dalam pembahasan fundamental, yaitu bagaimama sistem dasar bitcoin bekerja. Bitcoin bekerja di atas fondasi timechain. Ya, aku sudah tahu, pasti ada yang bertanya "loh bukannya blockchain? Kok jadi beda sama pembahasan yang mainstream?" Oke aku luruskan.
