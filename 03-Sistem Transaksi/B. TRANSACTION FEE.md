@@ -52,8 +52,8 @@ Misalkan kamu melakukan transaksi dengan ukuran data sebesar 140 vB.
 
 | Kondisi | Tarif fee (sats/vB) } | Total Fee | Estimasi Waktu |
 |---------|-----------------------|-----------|----------------|
-| Darurat | 100 sats/vB | 100 \times 140 = 14.000 sats | Paling cepat |
-| Santai Saja | 10 sats/vB | 10 \times 110 = 1.400 sats | Lebih lambat |
+| Darurat | 100 sats/vB | 100 x 140 = 14.000 sats | Paling cepat |
+| Santai Saja | 10 sats/vB | 10 x 110 = 1.400 sats | Lebih lambat |
 
 Semakin mahal fee yang kamu berikan, maka transaksi kamu akan diprioritaskan untuk dicatat oleh miner ke dalam blok.
 
