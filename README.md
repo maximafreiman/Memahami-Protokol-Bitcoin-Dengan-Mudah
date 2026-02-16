@@ -29,7 +29,7 @@ Materinya disusun secara bertahap dan dapat diverifikasi secara mandiri.
 |----|-------|-----------|
 | 1  | Fundamental Bitcoin | Cara Kerja Bitcoin, Whitepaper Bitcoin, Sejarah |
 | 2  | Konsensus | Pengertian, Byzantine Generals Problem, Proof of Work, Fork, 21 Juta Bitcoin |
-| 3  | Transaksi | UTXO, Script |
+| 3  | Transaksi | UTXO, Script, Fee, Mempool |
 
 yang lain masih menyusul ya cuy.. Stay tune!
 
