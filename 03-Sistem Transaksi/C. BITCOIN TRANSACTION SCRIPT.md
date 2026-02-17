@@ -186,6 +186,10 @@ Kelebihan:
 - Lebih efisien.
 - Lebih scalable.
 
+Kekurangan:
+- Adopsi masih minim
+- Perubahan jenis kriptografi (dari ECDSA ke Schnorr) yang menimbulkan kebimbangan.
+
 ---
 
 # **Bagian 5: Yang Tidak Pernah Berubah**
