@@ -15,7 +15,7 @@ Maka, konsensus teknologi harus memenuhi tiga syarat utama:
 
 - **Termination:** Setiap node yang jujur pada akhirnya harus memutuskan suatu nilai (tidak boleh menggantung selamanya).
 - **Agreement:** Semua node yang jujur harus memutuskan nilai yang sama.
-- **Validity:** Nilai yang disepakati haruslah nilai yang memang diusulkan oleh salah satu node (bukan muncul tiba-tiba dari kegelapan).
+- **Validity:** Nilai yang disepakati haruslah nilai yang memang diusulkan oleh node (bukan muncul tiba-tiba dari kegelapan).
 
 --
 
