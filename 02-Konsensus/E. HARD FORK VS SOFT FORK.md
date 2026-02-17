@@ -46,3 +46,17 @@ Tiba-tiba, sekelompok pedagang ingin melakukan perubahan besar yang tidak bisa d
 
 > **Kesimpulan:** > **Soft Fork** itu seperti *update* aplikasi yang masih bisa dibuka di HP jadul. 
 > **Hard Fork** itu seperti ganti mesin, yang lama sudah tidak bisa pakai sparepart yang baru lagi.
+
+---
+
+## Hubungan dengan Realita Bitcoin
+
+Dalam jaringan Bitcoin (BTC), kedua fenomena ini pernah terjadi secara nyata:
+
+### 1. Contoh Soft Fork: SegWit (2017)
+Ini adalah pembaruan "tinta hitam". Komunitas Bitcoin sepakat mengubah cara data transaksi dikemas agar lebih hemat tempat tanpa mengubah struktur dasar blockchain. 
+* **Hasilnya:** Bitcoin tetap satu, transaksi jadi lebih cepat dan murah, dan pengguna yang belum update aplikasinya tetap bisa mengirim/menerima Bitcoin seperti biasa.
+
+### 2. Contoh Hard Fork: Bitcoin Cash (BCH) (2017)
+Ini adalah peristiwa "ganti bahasa". Sebagian komunitas ingin ukuran "lembar halaman" di buku kas diperbesar secara drastis (dari 1MB menjadi 8MB). Karena mayoritas tidak setuju, kelompok ini memisahkan diri.
+* **Hasilnya:** Terjadi perpecahan. Terlahirlah **Bitcoin Cash (BCH)** sebagai koin baru yang memiliki buku kas terpisah dari **Bitcoin (BTC)** asli. Jika Anda punya 1 BTC saat itu, tiba-tiba Anda juga memiliki 1 BCH di buku kas yang baru.
