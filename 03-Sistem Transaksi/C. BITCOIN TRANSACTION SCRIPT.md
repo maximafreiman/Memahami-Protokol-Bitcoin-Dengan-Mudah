@@ -53,6 +53,8 @@ Types dalam Bitcoin Script adalah standar format penguncian transaksi. Setiap ti
 
 Untuk sekarang, sudah ada 6 tipe Bitcoin script types, yaitu : P2PK, P2PKH, P2SH, P2WPKH, P2WSH, dan P2TR.
 
+--
+
 **1. P2PK (Pay to Public Key)**
 Ini adalah tipe yang paling standar dan paling banyak digunakan sejak awal Bitcoin. Ini adalah tipe script yang dipakai langsung oleh Satoshi Nakamoto dan Hal Finney.
 
@@ -62,6 +64,7 @@ Kalau kita pakai tipe script yang ini, Bitcoin dikunci langsung ke Public Key ya
 |-----------------|-------|----------------------------------|
 | Public Key | Privasi yang rentan, digit terlalu panjang | Tidak ada prefix yang pasti, karena ini format public key mentah |
 
+--
 
 **2. P2PKH (Pay to Public Key Hash)**
 
