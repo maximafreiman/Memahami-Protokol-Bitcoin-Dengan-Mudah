@@ -26,6 +26,7 @@ Masalahnya, dalam sistem komputer yang tersebar di seluruh dunia (seperti intern
 - Kegagalan Malicious (Niat Jahat): Ada pengguna yang sengaja mengirim data palsu untuk mengacaukan sistem atau mencuri uang.
 
 Hubungannya dengan Bitcoin
+
 Di dunia perbankan tradisional, kita tidak butuh konsensus antar pengguna karena ada otoritas pusat (Bank sentral atau Bank komersial). Bank adalah satu-satunya sumber kebenaran. Apa kata bank, itulah yang terjadi.
 
 Bitcoin ingin membuang otoritas pusat itu. Jadi, tantangannya adalah: Bagaimana ribuan komputer yang tidak saling kenal, tidak saling percaya, dan tersebar di seluruh dunia, bisa punya satu buku catatan transaksi yang identik 100% setiap detiknya?
