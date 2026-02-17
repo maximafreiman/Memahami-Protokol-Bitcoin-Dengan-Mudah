@@ -1,25 +1,24 @@
-# Bitcoin Transaction Script, Penjelasan Sederhana dari Nol
+# Bitcoin Transaction Script, Penjelasan Sederhana dari Nol Bagaimana Bitcoin Dikirim dan Kepemilikannya Dikunci Tanpa Sistem Akun
 
-Banyak orang mengira Bitcoin itu seperti:
-- kirim saldo  
-- dari akun A ke akun B  
+Kenapa harus bahas script? Banyak orang mengira Bitcoin itu seperti:
+- kirim saldo
+- dari akun A ke akun B
 
 Padahal Bitcoin tidak punya akun.
 
-Di dalam protokol Bitcoin, yang ada hanyalah:
-> UTXO (koin) yang dikunci dengan aturan.
+Di dalam protokol Bitcoin, yang ada hanyalah UTXO, yaitu koin yang dikunci dengan aturan.
 
 Aturan itulah yang disebut Bitcoin Script.
 
-
+---
 
 ## Konsep Paling Penting
 
 Bitcoin tidak pernah mengirim ke “alamat”.
 
-Bitcoin sebenarnya:
+Bitcoin sebenarnya bekerja seperti ini:
 
-    Mengunci koin → dengan sebuah kondisi matematika.
+    Mengunci koin dengan sebuah kondisi matematika.
 
 Dan untuk membukanya:
 
@@ -27,127 +26,97 @@ Dan untuk membukanya:
 
 Jadi Bitcoin bukan sistem kirim uang.
 
-Bitcoin adalah:
-> Sistem kunci dan buka kunci.
+Bitcoin adalah sistem kunci dan buka kunci.
 
 ---
 
-## Bagian 1: Apa Itu Bitcoin Script?
+# **Bagian 1: Apa Itu Bitcoin Script?**
 
-Bitcoin Script adalah bahasa instruksi sederhana  
-yang dipakai untuk menentukan:
-
-> Siapa yang boleh memakai koin ini?
+Bitcoin Script adalah bahasa instruksi sederhana yang dipakai untuk menentukan siapa yang boleh memakai koin tertentu.
 
 Script bukan untuk membuat aplikasi.  
-Script hanya untuk memverifikasi.
+Script hanya untuk memverifikasi bahwa suatu transaksi sah.
 
---
+## Cara Kerjanya
 
-**Cara Kerjanya: Stack-Based**
+Script bekerja dengan sistem tumpukan (stack):
 
-Script bekerja dengan sistem tumpukan data.
+1. Data dimasukkan ke stack.
+2. Perintah dijalankan untuk memproses data.
+3. Jika hasil akhirnya TRUE maka transaksi valid.
 
-Urutannya:
-1. Data dimasukkan ke stack.  
-2. Operator memproses data.  
-3. Jika hasil akhir TRUE maka transaksi valid.
+## Kenapa Script Dibuat Terbatas?
 
---
-
-**Script Sengaja Dibuat Terbatas**
-
-Bitcoin Script memiliki batasan berikut:
+Bitcoin Script sengaja dibatasi agar aman.
 
 | Sifat | Artinya |
 |------|---------|
 Stateless | Tidak punya ingatan transaksi lain |
 Tanpa Loop | Tidak bisa berjalan tanpa henti |
-Deterministik | Semua node mendapat hasil sama |
-Sederhana | Aman untuk jaringan global |
+Deterministik | Semua node mendapat hasil yang sama |
+Sederhana | Mudah diverifikasi oleh seluruh jaringan |
 
-Tujuannya:
-Agar tidak bisa dipakai menyerang jaringan.
-
-Bitcoin bukan komputer umum.  
-Bitcoin adalah mesin verifikasi.
+Bitcoin bukan komputer serbaguna.  
+Bitcoin adalah mesin verifikasi global.
 
 ---
 
-## Bagian 2: Dua Komponen Dalam Transaksi
+# **Bagian 2: Dua Komponen Dalam Transaksi**
 
-Setiap transaksi selalu memiliki dua bagian script.
+Setiap transaksi memiliki dua bagian script yang saling berpasangan.
 
-**ScriptPubKey (Locking Script)**
+## ScriptPubKey (Locking Script)
 
-Dibuat oleh pengirim.
+Dibuat oleh pengirim.  
+Berisi aturan tentang siapa yang boleh memakai koin ini di masa depan.
 
-Berisi aturan:
-> Apa syarat agar koin ini boleh dipakai lagi?
+## ScriptSig (Unlocking Script)
 
+Dibuat oleh pihak yang ingin membelanjakan koin.  
+Berisi bukti bahwa dia memenuhi aturan tadi.
 
-**ScriptSig (Unlocking Script)**
+Biasanya berupa tanda tangan digital dan public key.  
+Pada transaksi modern, data ini bisa berada di bagian Witness.
 
-Dibuat oleh pihak yang ingin membelanjakan koin.
+## Cara Node Memverifikasi
 
-Berisi bukti:
-> Bahwa dia memenuhi syarat tadi.
-
-Biasanya berupa:
-- tanda tangan digital  
-- public key  
-
-Pada transaksi modern, data ini bisa berada di Witness.
-
-
-
-**Cara Node Memverifikasi**
-
-Node menjalankan:
+Node akan menjalankan:
 
     ScriptSig + ScriptPubKey
 
-Script digabung lalu dieksekusi.
+Kedua bagian digabung lalu dieksekusi.
 
-Jika hasil akhir TRUE:
-Transaksi sah.
-
-Jika FALSE:
-Transaksi ditolak.
+Jika hasil akhirnya TRUE, transaksi diterima.  
+Jika FALSE, transaksi ditolak.
 
 ---
 
-## Bagian 3: Address Itu Hanya Representasi Script
+# **Bagian 3: Address Itu Sebenarnya Bentuk Script**
 
-Yang sering disebut:
-- alamat Legacy  
-- alamat SegWit  
-- alamat Taproot  
+Yang sering disebut sebagai:
+- alamat Legacy
+- alamat SegWit
+- alamat Taproot
 
 Sebenarnya hanyalah cara berbeda menulis ScriptPubKey.
 
 Bukan sistem baru.  
 Bukan blockchain baru.  
-Hanya format penguncian yang berbeda.
+Hanya format penguncian yang berevolusi.
 
 ---
 
-## Bagian 4: Evolusi Cara Mengunci Bitcoin
+# **Bagian 4: Evolusi Cara Mengunci Bitcoin**
 
-Semua tipe address adalah evolusi desain script.
+Semua tipe address adalah perkembangan desain script untuk tujuan efisiensi, keamanan, dan fleksibilitas.
 
---
-
-## **a. P2PK: Pay to Public Key**
-
-Bentuk paling awal.
+## P2PK (Pay to Public Key)
 
 Script:
 
     <PublicKey> OP_CHECKSIG
 
-Artinya:
-Koin dikunci langsung ke public key.
+Artinya koin dikunci langsung ke public key.
 
 Kelebihan:
 - Sangat sederhana.
@@ -157,10 +126,9 @@ Kekurangan:
 - Tidak efisien.
 - Privasi rendah.
 
+## P2PKH (Pay to Public Key Hash)
 
-## **b. P2PKH: Pay to Public Key Hash**
-
-Menghasilkan alamat:
+Alamat:
 
     1xxxxxxxxxxxxxxxx
 
@@ -168,66 +136,49 @@ Script:
 
     OP_DUP OP_HASH160 <PubKeyHash> OP_EQUALVERIFY OP_CHECKSIG
 
-Artinya:
-Yang disimpan hanya hash public key.
-
-Public key baru muncul saat spending.
+Yang disimpan hanya hash public key.  
+Public key baru muncul saat koin dibelanjakan.
 
 Kelebihan:
 - Lebih hemat ruang.
 - Lebih aman.
 - Lebih privat.
 
-Ini menjadi standar lama Bitcoin.
-
-
-## **c. P2SH: Pay to Script Hash**
+## P2SH (Pay to Script Hash)
 
 Alamat:
 
     3xxxxxxxxxxxxxxxx
 
-Digunakan untuk:
-- multisig
-- aturan kompleks
+Digunakan untuk multisig dan aturan kompleks.
 
-Bitcoin hanya menyimpan hash script.
-Script asli ditampilkan saat dibelanjakan.
+Bitcoin hanya menyimpan hash dari script.  
+Script asli ditampilkan saat spending.
 
 Kelebihan:
 - Fleksibel.
-- Mendukung berbagai skenario custody.
+- Cocok untuk shared custody.
 
-
-## **d. SegWit: P2WPKH & P2WSH**
+## SegWit (P2WPKH dan P2WSH)
 
 Alamat:
 
     bc1q...
 
-SegWit memindahkan data tanda tangan ke bagian terpisah:
-Witness.
+SegWit memindahkan data tanda tangan ke bagian terpisah bernama Witness.
 
-Tujuan:
+Tujuannya:
 - Mengurangi ukuran transaksi.
-- Menghilangkan malleability.
-- Fee lebih murah.
+- Menghilangkan masalah malleability.
+- Membuat fee lebih murah.
 
-
-## **e. Taproot: P2TR**
+## Taproot (P2TR)
 
 Alamat:
 
     bc1p...
 
-Desain paling modern.
-
-Menggabungkan:
-- signature
-- script
-- multisig
-
-Menggunakan Schnorr signature.
+Menggabungkan signature, script, dan multisig dalam satu struktur berbasis Schnorr.
 
 Kelebihan:
 - Transaksi kompleks terlihat seperti transaksi biasa.
@@ -237,57 +188,33 @@ Kelebihan:
 
 ---
 
-# Ringkasan Semua Tipe Script
+# **Bagian 5: Yang Tidak Pernah Berubah**
 
-| Tipe | Prefix Address | Fokus | Kelebihan | Kekurangan |
-|------|----------------|-------|-----------|------------|
-P2PK | (tidak umum) | Langsung ke public key | Sederhana | Tidak efisien |
-P2PKH | 1 | Standar lama | Stabil & aman | Kurang efisien |
-P2SH | 3 | Script kompleks | Fleksibel | Data lebih besar |
-P2WPKH | bc1q | SegWit user | Fee lebih murah | Butuh wallet modern |
-P2WSH | bc1q | SegWit script | Efisien multisig | Lebih teknis |
-P2TR | bc1p | Taproot | Privasi & efisiensi | Adopsi bertahap |
-
----
-
-# Bagian 5: Yang Tidak Pernah Berubah
-
-Sejak awal Bitcoin:
-
-Yang berubah:
-Cara menulis ScriptPubKey.
+Sejak awal Bitcoin, yang berubah hanyalah cara menulis ScriptPubKey.
 
 Yang tidak berubah:
-- Model UTXO  
-- Mesin Script  
-- Validasi TRUE/FALSE  
-- Tidak ada akun  
-- Tidak ada saldo global  
+- Model UTXO
+- Mesin Script
+- Validasi TRUE atau FALSE
+- Tidak ada akun
+- Tidak ada saldo global
 
 ---
 
-# Kesimpulan
+## Kesimpulan
 
-Bitcoin bukan:
-- sistem akun
-- sistem saldo
-- sistem kirim uang
+Bitcoin bukan sistem akun.  
+Bitcoin bukan sistem saldo.  
+Bitcoin bukan sistem kirim uang.
 
-Bitcoin adalah:
-> Sistem pembuktian hak menggunakan UTXO.
+Bitcoin adalah sistem pembuktian hak menggunakan UTXO.
 
-Bitcoin Script adalah:
-> Bahasa untuk mendefinisikan hak tersebut.
+Bitcoin Script adalah bahasa yang mendefinisikan hak tersebut.
 
-Semua jenis address hanyalah variasi cara menulis kondisi.
-Bukan perubahan sistem.
-
----
+Semua jenis address hanyalah variasi cara menulis kondisi, bukan perubahan sistem.
 
 Jika ingin memahami Bitcoin di level protokol, cukup ingat:
 
     Bitcoin = UTXO + Script + Verifikasi Deterministik
 
 Sisanya hanyalah variasi implementasi.
-
-
