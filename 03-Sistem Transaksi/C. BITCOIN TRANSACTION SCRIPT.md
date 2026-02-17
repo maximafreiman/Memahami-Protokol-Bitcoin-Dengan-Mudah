@@ -7,7 +7,7 @@ Dalam sistem Bitcoin, setiap transaksi tidak dikirim ke sebuah "akun", melainkan
 
 1. Apa itu Bitcoin Script?
 
-Bitcoin Script adalah bahasa pemrograman Stack-Based. Artinya, cara kerjanya adalah dengan menumpuk data dan memprosesnya satu per satu dari atas ke bawah.
+Bitcoin Script adalah bahasa pemrograman Stack-Based. Artinya, cara kerjanya adalah dengan menumpuk data dan memprosesnya satu per satu dari atas ke bawah. Script bukan untuk menjalankan logika aplikasi, tetapi hanya untuk memvalidasi kondisi transaksi.
 
 - Stateless: Script ini tidak punya "memori". Dia tidak tahu apa yang terjadi di transaksi sebelumnya atau sesudahnya. Dia cuma fokus menyelesaikan instruksi yang ada di depannya saat itu juga.
 - Non-Turing Complete: Script tidak memiliki fungsi loop (perulangan seperti `for` atau `while`). Ini sengaja dilakukan agar programnya cepat selesai dieksekusi dan tidak bisa digunakan untuk menyerang jaringan dengan kode yang berjalan selamanya.
@@ -22,7 +22,7 @@ Setiap transaksi Bitcoin terdiri dari dua bagian kode yang harus "bertemu" agar 
 Ini adalah potongan kode yang ditaruh oleh si pengirim Bitcoin di dalam output transaksi. Kode ini berisi instruksi tentang syarat apa yang harus dipenuhi agar Bitcoin tersebut bisa dipindahkan lagi di masa depan.
 
 - **ScriptSig** (Unlocking Script):
-Ini adalah data yang disediakan oleh orang yang ingin memakai Bitcoin tersebut. Isinya biasanya berupa tanda tangan digital dan kunci publik (public key).
+Ini adalah data yang disediakan oleh orang yang ingin memakai Bitcoin tersebut. Isinya biasanya berupa tanda tangan digital dan kunci publik (public key). Pada transaksi modern, kita memakai Witness.
 
 --
 
@@ -49,7 +49,7 @@ Singkatnya: Bitcoin Script adalah cara Bitcoin memastikan bahwa orang yang menco
 
 ## Bagian 2: Tipe-tipe Script
 
-Types dalam Bitcoin Script adalah standar format penguncian transaksi. Setiap tipe menentukan bagaimana ScriptPubKey (syarat) dibuat oleh pengirim dan bagaimana ScriptSig (bukti) harus disediakan oleh penerima agar dana bisa digunakan kembali.
+Types dalam Bitcoin Script adalah standar format penggunaan transaksi. Setiap tipe menentukan bagaimana ScriptPubKey (syarat) dibuat oleh pengirim dan bagaimana ScriptSig (bukti) harus disediakan oleh penerima agar dana bisa digunakan kembali.
 
 Untuk sekarang, sudah ada 6 tipe Bitcoin script types, yaitu : P2PK, P2PKH, P2SH, P2WPKH, P2WSH, dan P2TR.
 
@@ -58,7 +58,7 @@ Untuk sekarang, sudah ada 6 tipe Bitcoin script types, yaitu : P2PK, P2PKH, P2SH
 **1. P2PK (Pay to Public Key)**
 Ini adalah tipe yang paling standar dan paling banyak digunakan sejak awal Bitcoin. Ini adalah tipe script yang dipakai langsung oleh Satoshi Nakamoto dan Hal Finney.
 
-Kalau kita pakai tipe script yang ini, Bitcoin dikunci langsung ke Public Key yang utuh. Disinilah kekurangan dari tipe P2PK ini. Public Key yang panjang (65 byte) terpampang jelas di blockchain, bikin ukuran transaksi jadi bengkak dan kurang aman dari sisi privasi. Bahkan lebih rentan oleh serangan seperti komputasi kuantum. Inilah alasan kenapa user bitcoin yang lama sangat rentan.
+Kalau kita pakai tipe script yang ini, Bitcoin dikirim langsung ke Public Key yang utuh. Disinilah kekurangan dari tipe P2PK ini. Public Key yang panjang (65 byte) terpampang jelas di blockchain, bikin ukuran transaksi jadi bengkak dan kurang aman dari sisi privasi. Bahkan lebih rentan oleh serangan seperti komputasi kuantum. Inilah alasan kenapa user bitcoin yang lama sangat rentan.
 
 | Nama Resmi Tipe | Fitur | Prefix (Huruf atau Angka Awalan) Address |
 |-----------------|-------|----------------------------------|
@@ -69,5 +69,7 @@ Kalau kita pakai tipe script yang ini, Bitcoin dikunci langsung ke Public Key ya
 **2. P2PKH (Pay to Public Key Hash)**
 
 Ini adalah tipe yang paling standar dan paling banyak digunakan sejak awal Bitcoin. Biasanya, tipe ini disebut dengan Legacy.
+
+Disini, Public Key di-hash dulu dua kali (SHA256 lalu RIPEMD160). Efeknya, Alamat jadi lebih pendek dan lebih aman karena Public Key asli baru muncul saat dana mau dipakai.
 
 (menyusul untuk lanjutannya).
