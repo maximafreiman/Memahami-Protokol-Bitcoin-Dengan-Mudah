@@ -1,6 +1,4 @@
-# Bitcoin Transaction Script — Penjelasan Sederhana dari Nol
-
-## Kenapa Harus Bahas "Script"?
+# Bitcoin Transaction Script, Penjelasan Sederhana dari Nol
 
 Banyak orang mengira Bitcoin itu seperti:
 - kirim saldo  
@@ -13,7 +11,7 @@ Di dalam protokol Bitcoin, yang ada hanyalah:
 
 Aturan itulah yang disebut Bitcoin Script.
 
----
+
 
 ## Konsep Paling Penting
 
@@ -34,9 +32,7 @@ Bitcoin adalah:
 
 ---
 
-# Bagian 1 — Apa Itu Bitcoin Script?
-
-## Definisi
+## Bagian 1: Apa Itu Bitcoin Script?
 
 Bitcoin Script adalah bahasa instruksi sederhana  
 yang dipakai untuk menentukan:
@@ -46,9 +42,9 @@ yang dipakai untuk menentukan:
 Script bukan untuk membuat aplikasi.  
 Script hanya untuk memverifikasi.
 
----
+--
 
-## Cara Kerjanya: Stack-Based
+**Cara Kerjanya: Stack-Based**
 
 Script bekerja dengan sistem tumpukan data.
 
@@ -57,9 +53,9 @@ Urutannya:
 2. Operator memproses data.  
 3. Jika hasil akhir TRUE maka transaksi valid.
 
----
+--
 
-## Script Sengaja Dibuat Terbatas
+**Script Sengaja Dibuat Terbatas**
 
 Bitcoin Script memiliki batasan berikut:
 
@@ -78,20 +74,19 @@ Bitcoin adalah mesin verifikasi.
 
 ---
 
-# Bagian 2 — Dua Komponen Dalam Transaksi
+## Bagian 2: Dua Komponen Dalam Transaksi
 
 Setiap transaksi selalu memiliki dua bagian script.
 
-## ScriptPubKey (Locking Script)
+**ScriptPubKey (Locking Script)**
 
 Dibuat oleh pengirim.
 
 Berisi aturan:
 > Apa syarat agar koin ini boleh dipakai lagi?
 
----
 
-## ScriptSig (Unlocking Script)
+**ScriptSig (Unlocking Script)**
 
 Dibuat oleh pihak yang ingin membelanjakan koin.
 
@@ -104,9 +99,9 @@ Biasanya berupa:
 
 Pada transaksi modern, data ini bisa berada di Witness.
 
----
 
-## Cara Node Memverifikasi
+
+**Cara Node Memverifikasi**
 
 Node menjalankan:
 
@@ -122,7 +117,7 @@ Transaksi ditolak.
 
 ---
 
-# Bagian 3 — Address Itu Hanya Representasi Script
+## Bagian 3: Address Itu Hanya Representasi Script
 
 Yang sering disebut:
 - alamat Legacy  
@@ -137,13 +132,13 @@ Hanya format penguncian yang berbeda.
 
 ---
 
-# Bagian 4 — Evolusi Cara Mengunci Bitcoin
+## Bagian 4: Evolusi Cara Mengunci Bitcoin
 
 Semua tipe address adalah evolusi desain script.
 
----
+--
 
-## P2PK — Pay to Public Key
+## **a. P2PK: Pay to Public Key**
 
 Bentuk paling awal.
 
@@ -162,9 +157,8 @@ Kekurangan:
 - Tidak efisien.
 - Privasi rendah.
 
----
 
-## P2PKH — Pay to Public Key Hash
+## **b. P2PKH: Pay to Public Key Hash**
 
 Menghasilkan alamat:
 
@@ -186,9 +180,8 @@ Kelebihan:
 
 Ini menjadi standar lama Bitcoin.
 
----
 
-## P2SH — Pay to Script Hash
+## **c. P2SH: Pay to Script Hash**
 
 Alamat:
 
@@ -205,9 +198,8 @@ Kelebihan:
 - Fleksibel.
 - Mendukung berbagai skenario custody.
 
----
 
-## SegWit — P2WPKH & P2WSH
+## **d. SegWit: P2WPKH & P2WSH**
 
 Alamat:
 
@@ -221,9 +213,8 @@ Tujuan:
 - Menghilangkan malleability.
 - Fee lebih murah.
 
----
 
-## Taproot — P2TR
+## **e. Taproot: P2TR**
 
 Alamat:
 
@@ -259,7 +250,7 @@ P2TR | bc1p | Taproot | Privasi & efisiensi | Adopsi bertahap |
 
 ---
 
-# Bagian 5 — Yang Tidak Pernah Berubah
+# Bagian 5: Yang Tidak Pernah Berubah
 
 Sejak awal Bitcoin:
 
