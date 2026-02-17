@@ -43,7 +43,7 @@ Disinilah "biaya admin" atau fee untuk miner berlaku. Pada saat Bu Yayuk mengiri
 
 Nah, skema visualnya kurang lebih kayak gini:
 
-<img width="1920" height="1080" alt="bc1q9f3k7xw2m0s8p4v5r6t2j3h5n7a8e9d4c6b (1)" src="https://github.com/user-attachments/assets/1a77af6a-e06d-4f9e-91dc-678c690784cf" />
+<img width="1920" height="1080" alt="bc1q9f3k7xw2m0s8p4v5r6t2j3h5n7a8e9d4c6b (3)" src="https://github.com/user-attachments/assets/d47ac04f-bbe6-41e9-8566-a943176599b8" />
 
 
 Nah ini adalah rangkaian transaksi yang terjadi dalam Bitcoin. Jadi lebih mirip seperti koin cash, hanya saja dalam bentuk digital.
