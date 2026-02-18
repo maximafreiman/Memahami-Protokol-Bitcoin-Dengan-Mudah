@@ -30,6 +30,13 @@ Materinya disusun secara bertahap dan dapat diverifikasi secara mandiri.
 | 1  | Fundamental Bitcoin | Cara Kerja Bitcoin, Whitepaper Bitcoin, Sejarah |
 | 2  | Konsensus | Pengertian, Byzantine Generals Problem, Proof of Work, Fork, 21 Juta Bitcoin |
 | 3  | Transaksi | UTXO, Script, Fee, Mempool |
+| 4  | Block | Header, Transaction Data, Merkle Tree, Reorg |
+| 5  | Kriptografi | ECC, ECDSA, SHA256, Schnorr |
+| 6  | Mining | Difficulty Adjustment, 51% Attack, Poisson Distribution |
+| 7  | Node | Full Node, Pruned Node, P2P Communication, Policy |
+| 8  | Layer 2 | Lightning Network, Ark Protocol, RGB |
+| 9  | Privacy | Coinjoin, Fungibility, Taproot |
+| 10 | Bitcoin Software | Bitcoin Core and Bitcoin Knots Installation |
 
 yang lain masih menyusul ya cuy.. Stay tune!
 
