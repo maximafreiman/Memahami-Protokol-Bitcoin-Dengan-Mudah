@@ -30,7 +30,7 @@ Setelah struktur transaksi sudah diketahui oleh wallet, UTXO tidak langsung terk
 
 ![4](https://github.com/user-attachments/assets/e03b321a-415f-4bac-93be-f313922ec5c0)
 
-Setelah diverifikasi semuanya oleh node yang menerima transaksi. Bisa serentak, bisa satu-satu, tergantung node yang menyala. Baru proses transaksi dimulai..
+Setelah diverifikasi semuanya oleh node yang menerima transaksi. Setelah itu disebar ke node lain, baru proses transaksi dimulai..
 
 <img width="1920" height="1080" alt="UTXO COUPON (1)" src="https://github.com/user-attachments/assets/9a3850a0-4aea-4e3e-9eb5-f519d01b2503" />
 
