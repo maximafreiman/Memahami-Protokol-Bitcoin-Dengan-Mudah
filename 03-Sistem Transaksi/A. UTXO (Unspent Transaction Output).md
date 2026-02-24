@@ -32,7 +32,7 @@ Setelah struktur transaksi sudah diketahui oleh wallet, UTXO tidak langsung terk
 
 Setelah diverifikasi semuanya oleh ribuan node secara global, baru proses transaksi dimulai..
 
-![5](https://github.com/user-attachments/assets/0844349b-93b8-4c89-894a-69eaab2546b2)
+![UTXO COUPON (1)](https://github.com/user-attachments/assets/1e1d553f-c65a-40a7-9115-df92e0c9b1f1)
 
 Nah sekarang, kamu dan temanmu udah terima UTXO yang baru, tapi sebelum itu, node memverifikasi lagi UTXO yang baru ini.
 
