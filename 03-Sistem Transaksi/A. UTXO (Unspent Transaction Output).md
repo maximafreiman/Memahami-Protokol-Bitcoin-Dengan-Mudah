@@ -32,13 +32,10 @@ Setelah struktur transaksi sudah diketahui oleh wallet, UTXO tidak langsung terk
 
 Setelah diverifikasi semuanya oleh ribuan node secara global, baru proses transaksi dimulai..
 
-![UTXO COUPON (1)](https://github.com/user-attachments/assets/1e1d553f-c65a-40a7-9115-df92e0c9b1f1)
+<img width="1920" height="1080" alt="UTXO COUPON (1)" src="https://github.com/user-attachments/assets/9a3850a0-4aea-4e3e-9eb5-f519d01b2503" />
 
-Nah sekarang, kamu dan temanmu udah terima UTXO yang baru, tapi sebelum itu, node memverifikasi lagi UTXO yang baru ini.
 
-![6](https://github.com/user-attachments/assets/3a7de614-58d4-4b65-8881-3aabd6df1ada)
-
-And done. Jumlah UTXO-mu yang baru sudah resmi masuk di dalam blockchain.
+Nah sekarang, kamu dan temanmu udah terima UTXO yang baru. Temanmu sudah ada kepemilikan baru, dan kamu juga sudah terima kembaliannya. Dan itu dicatat di dalam blockchain.
 
 --
 
