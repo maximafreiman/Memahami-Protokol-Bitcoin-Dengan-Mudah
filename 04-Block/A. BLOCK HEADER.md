@@ -49,7 +49,7 @@ Jaringan menentukan seberapa sulit gembok ini harus dibuat. Secara teknis, ini a
 
 **6. Nonce: Angka yang Terus Diputar pada Roda Kombinasi.**
 
-Inilah variabel yang dicari-cari oleh penambang. Karena semua data di atas (Version, PrevHash, dll) sudah tetap, penambang hanya bisa mengubah satu hal: Nonce. Mereka mencoba memasukkan angka 1, 2, 3... sampai jutaan kali, hingga seluruh data di header menghasilkan hash (lubang kunci) yang sesuai dengan Difficulty Target. Begitu angkanya ketemu, "KLIK!", brankas terkunci dan sah.
+Inilah variabel yang dicari-cari oleh pembuat brankas (istilah resminya adalah miner alias penambang block). Karena semua data di atas (Version, PrevHash, dll) sudah tetap, penambang hanya bisa mengubah satu hal: Nonce. Mereka mencoba memasukkan angka 1, 2, 3... sampai jutaan kali, hingga seluruh data di header menghasilkan hash (lubang kunci) yang sesuai dengan Difficulty Target. Begitu angkanya ketemu, "KLIK!", brankas terkunci dan sah.
 
 
 
