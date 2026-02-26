@@ -18,4 +18,4 @@ Demikian pula dengan transaksi-transaksi sebelumnya. Karena ada kombinasi blockh
 
 <img width="1920" height="1080" alt="3(1)" src="https://github.com/user-attachments/assets/cad69cf1-8ab9-45a5-ab9e-5eb08a78b087" />
 
-
+SOON untuk selanjutnya.....
