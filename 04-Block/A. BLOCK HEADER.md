@@ -1,5 +1,7 @@
 Pengertian Block & Block Header
---
+---
+
+### Block Anatomy
 
 Kita akan pakai analogi brankas disini. Block Bitcoin adalah sebuah brankas digital yang transparan berisi tumpukan catatan transaksi yang terkunci rapat dengan 2 kombinasi keamanan. Yaitu lubang kunci dengan kode yang disebut block hash, dan sebuah gembok dengan label yang berasal dari kode block hash sebelumnya, disebut prevblockhash.
 
@@ -18,4 +20,21 @@ Demikian pula dengan transaksi-transaksi sebelumnya. Karena ada kombinasi blockh
 
 <img width="1920" height="1080" alt="3(1)" src="https://github.com/user-attachments/assets/cad69cf1-8ab9-45a5-ab9e-5eb08a78b087" />
 
-SOON untuk selanjutnya.....
+### Block Header
+
+Simpelnya, block header adala identitas dari brankas "block" itu tadi. Mari kita bahas.
+
+**1. Version: Nomor Seri Brankas**
+
+Ini adalah angka yang memberi tahu jaringan aturan main mana yang diikuti oleh brankas ini. Jika ada pembaruan sistem (seperti ganti jenis baja atau jenis kunci baru), angka versi ini akan berubah agar semua orang tahu standar apa yang digunakan.
+
+
+
+2. 
+
+
+
+
+
+
+
