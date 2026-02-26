@@ -20,6 +20,8 @@ Demikian pula dengan transaksi-transaksi sebelumnya. Karena ada kombinasi blockh
 
 <img width="1920" height="1080" alt="3(1)" src="https://github.com/user-attachments/assets/cad69cf1-8ab9-45a5-ab9e-5eb08a78b087" />
 
+---
+
 ### Block Header
 
 Simpelnya, block header adala identitas dari brankas "block" itu tadi. Mari kita bahas.
@@ -41,7 +43,13 @@ Bayangkan di dalam brankas ada ribuan surat (transaksi). Alih-alih mencatat semu
 
 Mencatat kapan tepatnya brankas ini selesai dirakit dan dikunci. Ini penting agar tidak ada yang bisa memasukkan brankas "dari masa depan" atau mengacak-acak urutan kejadian.
 
-(tunggu update selanjutnya).
+**5. Difficulty Target: Tingkat Kerumitan Kombinasi Kunci.**
+
+Jaringan menentukan seberapa sulit gembok ini harus dibuat. Secara teknis, ini adalah angka target yang harus dipenuhi oleh hash blok. Semakin banyak penambang (orang yang mencoba mengunci brankas), sistem akan otomatis membuat kombinasi kuncinya jadi lebih sulit agar brankas tidak dibuat terlalu cepat.
+
+**6. Nonce: Angka yang Terus Diputar pada Roda Kombinasi.**
+
+Inilah variabel yang dicari-cari oleh penambang. Karena semua data di atas (Version, PrevHash, dll) sudah tetap, penambang hanya bisa mengubah satu hal: Nonce. Mereka mencoba memasukkan angka 1, 2, 3... sampai jutaan kali, hingga seluruh data di header menghasilkan hash (lubang kunci) yang sesuai dengan Difficulty Target. Begitu angkanya ketemu, "KLIK!", brankas terkunci dan sah.
 
 
 
