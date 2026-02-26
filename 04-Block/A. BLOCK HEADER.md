@@ -29,8 +29,19 @@ Simpelnya, block header adala identitas dari brankas "block" itu tadi. Mari kita
 Ini adalah angka yang memberi tahu jaringan aturan main mana yang diikuti oleh brankas ini. Jika ada pembaruan sistem (seperti ganti jenis baja atau jenis kunci baru), angka versi ini akan berubah agar semua orang tahu standar apa yang digunakan.
 
 
+**2. PrevBlockHash: Gembok dengan Nomor Kode Hash dari Brankas Sebelumnya**
 
-2. 
+Inilah yang menghubungkan satu brankas ke brankas sebelumnya. Header ini menyimpan hash dari brankas yang dibuat tepat sebelum ini. Jika ada orang jahat mencoba menukar brankas di masa lalu, gembok ini tidak akan pas lagi, dan seluruh barisan brankas setelahnya akan dianggap rusak/palsu.
+
+**3. Merkle Root: Ringkasan Isi Brankas**
+
+Bayangkan di dalam brankas ada ribuan surat (transaksi). Alih-alih mencatat semua judul surat di plat pintu, kita menggunakan metode matematika untuk meringkas ribuan surat itu menjadi satu kode unik. Jika ada satu huruf saja yang diubah di dalam salah satu surat di dalam brankas, "Foto Rontgen" ini akan berubah total.
+
+**4. Timestamp: Stempel Waktu**
+
+Mencatat kapan tepatnya brankas ini selesai dirakit dan dikunci. Ini penting agar tidak ada yang bisa memasukkan brankas "dari masa depan" atau mengacak-acak urutan kejadian.
+
+(tunggu update selanjutnya).
 
 
 
