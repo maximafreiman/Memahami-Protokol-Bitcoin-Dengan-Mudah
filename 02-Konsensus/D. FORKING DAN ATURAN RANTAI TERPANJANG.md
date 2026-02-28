@@ -1,5 +1,5 @@
-Forking dan Aturan Rantai Terpanjang
---
+# Forking dan Aturan Rantai Terpanjang
+
 
 Sekarang, bayangkan situasi ini: Ada dua penambang di dua negara (kita pakai nama negara fiktif sebagai contoh), satu di Genovia dan satu di Kashfarstan. Secara ajaib, keduanya menemukan "angka ajaib" (Proof of Work) di detik yang hampir bersamaan.
 
