@@ -1,5 +1,5 @@
-Apa itu Konsensus? dan Kenapa Menjadi Unsur Paling Utama di Bitcoin?
----
+# Apa itu Konsensus? dan Kenapa Menjadi Unsur Paling Utama di Bitcoin?
+
 
 Dalam konteks sosial, konsensus adalah cara kita mengambil keputusan tanpa harus melakukan pemungutan suara (voting) yang memenangkan satu pihak dan mengalahkan pihak lain.
 
