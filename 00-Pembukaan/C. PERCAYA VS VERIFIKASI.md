@@ -1,5 +1,5 @@
-Percaya vs Verifikasi
----
+# Percaya vs Verifikasi
+
 Kebanyakan sistem hari ini dibangun di atas kepercayaan.
 
 Kita percaya bank buat nyimpan uang kita.
