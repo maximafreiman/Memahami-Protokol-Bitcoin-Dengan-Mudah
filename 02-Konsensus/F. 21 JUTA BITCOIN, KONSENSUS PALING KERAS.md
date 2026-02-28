@@ -1,5 +1,5 @@
-21 Juta Bitcoin, Hard Coded Konsensus yang Tidak Bisa Diganggu Gugat!
---
+# 21 Juta Bitcoin, Hard Coded Konsensus yang Tidak Bisa Diganggu Gugat!
+
 Ini adalah bagian paling krusial dalam ekonomi Bitcoin. Mengapa Bitcoin disebut sebagai protokol uang digital yang paling kuat? Karena konsensus menjaga agar jumlahnya tetap langka, tidak seperti uang kertas yang bisa dicetak kapan saja oleh bank sentral.
 
 --
