@@ -1,5 +1,5 @@
-Perbankan vs Bitcoin. Dulu Dipaksa Percaya, Sekarang Perlu Verifikasi
----
+# Perbankan vs Bitcoin. Dulu Dipaksa Percaya, Sekarang Perlu Verifikasi
+
 Untuk sebagian besar sejarah modern, sistem perbankan itu masuk akal.
 
 Uang masih berbentuk fisik.
