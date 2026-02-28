@@ -1,12 +1,12 @@
 # Kelangkaan Tetap di Bitcoin  
-## Uang, Nilai, dan Kenapa 21 Juta Itu Penting
+**Uang, Nilai, dan Kenapa 21 Juta Itu Penting**
 
 Buat memahami Bitcoin, nggak cukup cuma ngerti bagaimana ia bergerak.  
 Kamu juga perlu ngerti **kenapa ia bisa menyimpan nilai**.
 
 Di pusat pertanyaan ini ada satu ide utama: **kelangkaan**.
 
----
+--
 
 ## Uang dan Nilai
 
