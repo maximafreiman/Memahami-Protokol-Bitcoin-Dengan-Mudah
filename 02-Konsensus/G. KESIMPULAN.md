@@ -1,5 +1,5 @@
-Kesimpulan: Konsensus adalah "The Social Contract" yang sudah disepakati dengan Kuat
---
+# Kesimpulan: Konsensus adalah "The Social Contract" yang sudah disepakati dengan Kuat
+
 
 Konsensus Bitcoin bukan hanya soal teknologi, tapi juga Perjanjian Sosial Digital. Semua orang yang menggunakan Bitcoin sepakat pada aturan main ini karena itulah yang membuat Bitcoin berharga.
 
