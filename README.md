@@ -4,9 +4,8 @@
 > **Goal:** Understanding the immutable laws of the 21 Million.
 
 
-**Writer:** Maxima Freiman
-
-**Text Auditor:** Bitcoin Satoshicat
+- **Writer:** Maxima Freiman
+- **Text Auditor:** Bitcoin Satoshicat
 
 | No | Tema | Topik Utama | Militant Insight (The "Why") |
 |:---|:---|:---|:---|
