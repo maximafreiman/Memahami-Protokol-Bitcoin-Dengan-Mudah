@@ -1,5 +1,5 @@
-Ray Dillinger dan Audit Kode Bitcoin: Protokolis di Balik Genesis
---
+# Ray Dillinger dan Audit Kode Bitcoin: Protokolis di Balik Genesis
+
 
 Bayangkan akhir 2008: dunia baru saja membaca whitepaper Bitcoin, penuh ide inovatif tentang uang digital terdesentralisasi. Namun whitepaper itu masih sebatas konsep. Siapa yang memastikan teori ini bisa benar-benar dijalankan secara teknis? Jawabannya: Ray Dillinger.
 
