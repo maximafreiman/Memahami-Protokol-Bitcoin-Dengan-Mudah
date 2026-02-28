@@ -1,29 +1,3 @@
-### Memahami Protokol Bitcoin Dengan Mudah
-Lindungi Uang dan Nilaimu dengan Bitcoin. Cocok untuk Semuanya 
-
----
-
-Bitcoin Simplicity (judul asli, ditulis oleh penulis yang sama) adalah proyek edukasi Bitcoin yang dikerjakan secara solo,
-membahas semuanya mulai dari dasar hingga tingkat pengembang,
-dirancang agar siapa pun, termasuk pembaca non-teknis,
-dapat memahami Bitcoin secara utuh.
-
-Pendekatannya sederhana:
-Bitcoin dijelaskan berdasarkan aturan protokolnya,
-tanpa jargon yang tidak perlu dan tanpa mencampurkannya dengan “kripto”.
-
-
-
-## Scope
-
-- Fundamental Bitcoin 
-- Wallets dan Transaksi  
-- Node dan Verifikasi
-- Bitcoin protocol dasar 
-- Bitcoin development  
-
-Materinya disusun secara bertahap dan dapat diverifikasi secara mandiri.
----
 
 # The Sovereign Protocoler Curriculum
 > **Status:** Bitcoin is Money. Everything else is a database. 
@@ -44,14 +18,6 @@ Materinya disusun secara bertahap dan dapat diverifikasi secara mandiri.
 | 11 | **Protocol Governance** | BIP Process (BIP 8/9), Soft Fork vs Hard Fork, Social Consensus. | Memahami bagaimana aturan berubah tanpa menghancurkan konsensus yang sudah ada. |
 
 ---
-
-## Technical Deep Dive: Block (Nomor 4)
-*Saat ini lu di sini, pastikan lu paham poin-poin krusial ini:*
-
-* **Block Header (80 Bytes):** Kenapa cuma 80 bytes ini yang menentukan validitas seluruh transaksi di dalamnya?
-* **Coinbase Transaction:** Satu-satunya transaksi yang diizinkan "mencetak" uang dari hampa (subsidi), tapi terikat aturan halving yang ketat.
-* **Merkle Tree:** Cara elegan untuk membuktikan sebuah transaksi ada dalam blok tanpa harus mendownload seluruh data blok (SPV Proof).
-* **Reorg (Reorganization):** Apa yang terjadi kalau dua blok ditemukan di waktu yang hampir bersamaan? Memahami "Longest Chain" (Most Work) Rule.
 
 
 
