@@ -1,5 +1,5 @@
-Dari Cypherpunks ke Bitcoin. Sebuah Sejarah yang Saling Terhubung
---
+# Dari Cypherpunks ke Bitcoin. Sebuah Sejarah yang Saling Terhubung
+
 
 **Pendahuluan: Masalah yang Sama, di Zaman Berbeda**
 
