@@ -3,6 +3,11 @@
 > **Status:** Bitcoin is Money. Everything else is a database. 
 > **Goal:** Understanding the immutable laws of the 21 Million.
 
+
+**Writer:** Maxima Freiman
+
+**Text Auditor:** Bitcoin Satoshicat
+
 | No | Tema | Topik Utama | Militant Insight (The "Why") |
 |:---|:---|:---|:---|
 | 1 | **Fundamental Bitcoin** | Whitepaper, Sejarah Cypherpunk, Austrian Economics basics. | Memahami bahwa Bitcoin adalah solusi atas kegagalan sistem uang fiat (Central Banking). |
