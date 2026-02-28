@@ -1,5 +1,5 @@
-Mempool, Ruang Tunggu Transaksi
----
+# Mempool, Ruang Tunggu Transaksi
+
 Mempool adalah "ruang tunggu" digital di setiap komputer (node) yang menjalankan perangkat lunak Bitcoin. Kalau kamu mengirim Bitcoin, transaksi tersebut tidak langsung masuk ke Blockchain. Transaksi itu dikirim ke jaringan dan disimpan di dalam Mempool terlebih dahulu sebelum penambang (miners) memilihnya untuk dimasukkan ke dalam blok baru. Simpel sebenernya. Ini adalah antrean transaksi valid yang akan dilist ke dalam block. Hanya saja, kita juga perlu tahu, kenapa ada sistem antri dan siapa yang bakal jadi prioritas dalam antrean tersebut.
 
 Prosesnya mengikuti alur berikut:
