@@ -1,5 +1,5 @@
-The Byzantine General Problem, dan Bagaimana Konsensus Bitcoin Menjadi Solusi
---
+# The Byzantine General Problem, dan Bagaimana Konsensus Bitcoin Menjadi Solusi
+
 
 Dalam dunia komputer terdistribusi (seperti jaringan Bitcoin yang isinya ribuan komputer asing), ada satu masalah klasik yang sangat ditakuti, namanya **Byzantine Generals Problem** (Masalah Jenderal Bizantium).
 
