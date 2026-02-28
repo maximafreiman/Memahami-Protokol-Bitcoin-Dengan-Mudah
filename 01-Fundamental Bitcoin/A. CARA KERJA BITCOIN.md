@@ -1,5 +1,5 @@
-Bagaimana Cara Kerja Bitcoin? Dibandingkan dengan Uang Komoditas dan Uang Fiat.
----
+# Bagaimana Cara Kerja Bitcoin? Dibandingkan dengan Uang Komoditas dan Uang Fiat.
+
 
 Untuk memahami cara kerja Bitcoin, akan lebih mudah jika kita membandingkannya dengan dua jenis uang yang sebelumnya digunakan manusia:
 **uang komoditas** dan **uang fiat.**
