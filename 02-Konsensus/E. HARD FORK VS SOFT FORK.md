@@ -1,5 +1,5 @@
-Hard Fork vs Soft Fork, Perubahan Konsensus dengan 2 Efek yang Berbeda dengan Fork Biasa
---
+# Hard Fork vs Soft Fork, Perubahan Konsensus dengan 2 Efek yang Berbeda dengan Fork Biasa
+
 
 Bayangkan sebuah komunitas pedagang yang masing-masing memegang **Buku Kas** yang identik untuk mencatat setiap transaksi di pasar. Semua orang harus punya catatan yang sama agar tidak ada yang bisa memalsukan data.
 
