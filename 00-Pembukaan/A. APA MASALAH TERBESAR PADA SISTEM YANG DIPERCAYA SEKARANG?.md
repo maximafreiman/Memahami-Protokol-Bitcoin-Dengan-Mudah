@@ -1,5 +1,5 @@
-Apa Masalah Terbesar dari Sistem yang Kita Percayai Saat Ini?
----
+# Apa Masalah Terbesar dari Sistem yang Kita Percayai Saat Ini?
+
 Sebelum mulai pembahasan ini, aku mau nanya satu hal dulu. Tolong jawab dengan jujur:
 
 “Seberapa besar kamu percaya pada sesuatu yang dikelola secara sistematis oleh satu orang atau sekelompok pihak tertentu?”
