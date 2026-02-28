@@ -1,5 +1,5 @@
-Aturan vs Manusia
----
+# Aturan vs Manusia
+
 Dalam sistem yang kita gunakan hari ini, hampir semuanya bergantung pada manusia. Manusia yang membuat aturan, manusia yang menafsirkan aturan, dan manusia juga yang menegakkannya.
 
 Di atas kertas, aturan terlihat objektif. Dalam praktiknya, aturan selalu dipengaruhi oleh siapa yang memegang kekuasaan.
