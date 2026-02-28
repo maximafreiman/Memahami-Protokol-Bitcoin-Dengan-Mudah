@@ -6,9 +6,9 @@ Kamu juga perlu ngerti **kenapa ia bisa menyimpan nilai**.
 
 Di pusat pertanyaan ini ada satu ide utama: **kelangkaan**.
 
---
+##
 
-## Uang dan Nilai
+### Uang dan Nilai
 
 Sepanjang sejarah, sesuatu bisa jadi uang bukan karena ia berguna,  
 tapi karena ia **langka dan dipercaya akan tetap langka**.
