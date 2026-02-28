@@ -1,5 +1,5 @@
-Jadi, Definisi Bitcoin itu Apa Sebenarnya? Dan Apa yang Bukan?
----
+# Jadi, Definisi Bitcoin itu Apa Sebenarnya? Dan Apa yang Bukan?
+
 Bitcoin sering dijelasin dengan banyak cara.
 Sebagai mata uang. Sebagai jaringan. Sebagai investasi. Sebagai revolusi.
 
