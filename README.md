@@ -1,6 +1,7 @@
 
 # The Sovereign Protocoler Curriculum
 > **Status:** Bitcoin is Money. A Digital Peer to Peer with Hard Coded Consensus. 
+
 > **Goal:** Understanding the immutable laws of the 21 Million.
 
 
