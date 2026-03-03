@@ -54,4 +54,4 @@ Intinya, Hashing di Bitcoin sedikit, berbeda. Ibarat pembuatan jus alpukat tadi,
 
 
 **5. Kesimpulan** 
-Hashing adalah segel keamanan; jika hacker mengubah satu "resep" (data) di masa lalu, hasilnya "jus" (hash) di blok tersebut dan setelahnya akan berubah total, sehingga manipulasi langsung ketahuan. Sementara Nonce adalah variabel eksperimen yang memastikan data tetap murni namun tetap sulit dipalsukan karena butuh kerja keras (komputasi) untuk menemukan "rasa" yang pas.
+Hashing adalah segel keamanan; jika hacker mengubah "resep dan bahan" (data) di masa lalu, hasilnya "jus" (hash) di blok tersebut dan setelahnya akan berubah total, sehingga manipulasi langsung ketahuan. Sementara Nonce adalah variabel eksperimen yang memastikan data tetap murni namun tetap sulit dipalsukan karena butuh kerja keras (komputasi) untuk menemukan "rasa" yang pas.
