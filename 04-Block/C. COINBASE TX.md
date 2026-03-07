@@ -1,3 +1,0 @@
-# Coinbase Transaction
-
-text
