@@ -23,3 +23,5 @@ Bayangkan sebuah block Bitcoin berisi 4 transaksi (A, B, C, dan D). Inilah yang 
 
 Kenapa ini teknis yang jenius?
 Karena jika kamu mengubah satu huruf saja di Transaksi A, maka Hash A berubah. Karena Hash A berubah, maka Hash AB ikut berubah. Akhirnya, Merkle Root di puncak pohon ikut berubah total.
+
+(Lanjutan, soon..)
