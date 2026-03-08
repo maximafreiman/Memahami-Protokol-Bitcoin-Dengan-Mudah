@@ -38,3 +38,44 @@ Dalam analogi jenderal tadi, PoW ibarat mewajibkan kurir untuk mengerjakan tugas
 Jika jenderal pengkhianat ingin mengirim pesan palsu yang berbeda-beda ke banyak jenderal, dia harus mengeluarkan energi dan usaha yang sangat besar (hampir mustahil dilakukan sendirian). Tentu saja. Masing-masing jenderal punya kurirnya masing-masing. Dan setiap mereka ingin mengantar pesan harus mengeluarkan effort yang besar. Bayangkan jika 99 jenderal dapat pesan yang sama, yang 1 dapat pesan yang berbeda. Maka pilihan untuk 1 jenderal ini ada 2: ikuti kesepakatan yang sudah ada, atau cari jalurnya sendiri.
 
 Dan yang terpenting juga, jenderal lain bisa dengan mudah memverifikasi apakah "pekerjaan" kurir itu benar atau tidak.
+
+--
+
+**Mengapa Perbankan Justru Mengadopsi Model yang Mirip dengan Byzantine Generals Problem**
+
+Berbeda dengan Bitcoin yang mencoba menyelesaikan masalah Byzantine, sistem perbankan modern justru menerima dan mengelola masalah tersebut dengan cara lain, yaitu melalui sentralisasi dan kepercayaan institusional.
+
+Dalam sistem perbankan, para "jenderal" tidak benar-benar independen seperti di jaringan Bitcoin. Mereka berada di bawah struktur yang jelas: bank komersial, bank sentral, lembaga kliring, regulator, dan sistem hukum negara.
+
+Artinya, jika ada pesan transaksi seperti:
+
+"Si Andi mengirim uang ke Budi"
+
+maka validitas pesan tersebut tidak ditentukan oleh konsensus ribuan komputer independen, tetapi oleh otoritas pusat yang dipercaya.
+
+Ada beberapa mekanisme yang membuat sistem ini bekerja:
+
+- Otoritas pusat (bank atau lembaga kliring)
+Bank bertindak sebagai sumber kebenaran. Jika terjadi konflik data, catatan bank dianggap benar.
+
+- Identitas yang diketahui (KYC)
+Semua pihak dalam sistem perbankan memiliki identitas yang diverifikasi. Ini mengurangi kemungkinan "pengkhianat anonim".
+
+- Audit dan regulasi
+Bank diawasi oleh regulator dan auditor. Jika ada manipulasi data, ada konsekuensi hukum.
+
+- Sistem pembatalan transaksi
+Jika terjadi kesalahan atau penipuan, transaksi dapat dibatalkan melalui proses administratif atau hukum.
+
+Dengan kata lain, perbankan tidak mencoba membuat sistem yang tahan terhadap pengkhianat secara matematis, seperti yang dilakukan Bitcoin.
+
+Sebaliknya, mereka membangun sistem yang bergantung pada kepercayaan terhadap institusi, hukum, dan otoritas pusat untuk menangani konflik.
+
+Pendekatan ini jauh lebih efisien secara energi dan kecepatan transaksi, tetapi memiliki satu konsekuensi besar:
+
+Jika otoritas pusat gagal, disusupi, atau korup, maka seluruh sistem bisa ikut terdampak, karena semua pihak bergantung pada sumber kebenaran yang sama.
+
+Bitcoin mencoba mengambil jalan yang berbeda: bukan dengan mempercayai institusi, tetapi dengan membuat sistem di mana bahkan jika sebagian peserta berperilaku jahat, jaringan tetap bisa mencapai konsensus yang benar.
+
+
+
