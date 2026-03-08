@@ -1,4 +1,4 @@
-# Mengenal TXID: Mengapa Bitcoin Tidak Butuh Bank untuk Membuktikan Transaksi
+# TXID: Mengapa Bitcoin Tidak Butuh Bank untuk Membuktikan Transaksi
 
 TXID adalah nomor identitas unik dari sebuah transaksi Bitcoin. Bentuknya berupa deretan 64 karakter (huruf dan angka).
 
