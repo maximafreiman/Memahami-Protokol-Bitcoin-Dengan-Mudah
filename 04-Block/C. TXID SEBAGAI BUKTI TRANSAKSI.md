@@ -31,4 +31,21 @@ Di dalam jaringan Bitcoin, TXID punya tiga fungsi utama yang sangat mendasar:
 
 - Penyusun Rantai (Blockchain): Ribuan TXID ini akan dikunci di dalam sebuah Block. TXID-TXID tersebut saling mengikat secara matematis, sehingga jika ada satu saja transaksi yang coba dihapus atau diubah di masa lalu, seluruh jaringan akan tahu karena TXID-nya tidak cocok lagi.
 
-(Penjelasan lanjutan, soon..)
+## Bagaimana TXID Muncul? (Analogi Stempel)
+TXID muncul melalui proses matematika yang disebut Hashing. Anggap saja ini seperti mesin stempel otomatis:
+
+- Kamu memasukkan data transaksi ke dalam mesin.
+
+- Mesin melakukan perhitungan matematis cepat.
+
+- Mesin mengeluarkan "stempel" unik (TXID).
+
+Sifat utamanya:
+
+**Satu Data, Satu Hasil: Jika datanya sama, TXID-nya akan selalu sama.**
+
+Anti-Manipulasi: Jika kamu mencoba mengubah jumlah Bitcoin yang dikirim (misal dari 0.1 jadi 1.0) meski cuma sedikit, mesin akan mengeluarkan TXID yang benar-benar berbeda. Ini yang membuat Bitcoin mustahil dipalsukan.
+
+## Kesimpulan
+
+TXID adalah sidik jari unik berupa deretan 64 karakter yang otomatis tercipta saat kamu melakukan transaksi Bitcoin. Ia berfungsi sebagai nomor referensi atau "tanda terima" digital yang membedakan satu transaksi dengan ribuan transaksi lainnya di dalam jaringan. Secara teknis, TXID muncul dari hasil perhitungan matematis (hashing) terhadap rincian data transaksi seperti jumlah koin dan alamat tujuan, sehingga jika ada satu detail kecil saja yang diubah, TXID tersebut akan berubah total. Inilah yang memungkinkan siapa pun untuk melacak status pengiriman dan membuktikan kepemilikan koin secara transparan tanpa perlu bergantung pada catatan tertutup milik bank.
