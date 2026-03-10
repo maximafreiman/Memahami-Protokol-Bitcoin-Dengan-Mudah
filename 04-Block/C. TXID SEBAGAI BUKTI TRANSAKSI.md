@@ -1,4 +1,4 @@
-# TXID: Mengapa Bitcoin Tidak Butuh Bank untuk Membuktikan Transaksi
+# TXID: Bukti dan Ringkasan Data Transaksi yang Dibentuk dari oleh Hash Kriptografi
 
 TXID (Transaction ID) adalah sidik jari digital yang unik untuk setiap transaksi di jaringan Bitcoin. Bayangkan Bitcoin bukan sebagai saldo di buku tabungan, melainkan sebagai tumpukan lembaran cek fisik (UTXO) yang bisa kamu pecah atau gabungkan.
 
