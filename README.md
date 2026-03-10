@@ -16,7 +16,7 @@
 | 4 | **Block (Current Focus)** | Block Header, Hash, TXID, Merkle Tree, Reorgs. | Membedah struktur blok sebagai detak jantung ekonomi yang tidak bisa dimanipulasi. |
 | 5 | **Kriptografi** | SHA-256, ECC (secp256k1), ECDSA vs Schnorr, Taproot (BIP341). | Matematika adalah satu-satunya hukum yang tidak mengenal batasan negara atau sensor. |
 | 6 | **Mining** | Difficulty Adjustment, Poisson Distribution, Stratum V2, 51% Attack Vectors. | Memastikan keamanan fisik jaringan tetap terdesentralisasi dan tahan terhadap paksaan negara. |
-| 7 | **Node & P2P** | Full Node vs Pruned, IBD (Initial Block Download), UASF (BIP148), Peer Discovery. | "Don't Trust, Verify." Menjalankan node sendiri adalah satu-satunya cara untuk merdeka. |
+| 7 | **Node & P2P** | Sistem Terdistribusi, Full Node vs Pruned, IBD (Initial Block Download), UASF (BIP148), Peer Discovery. | "Don't Trust, Verify." Menjalankan node sendiri adalah satu-satunya cara untuk merdeka. |
 | 8 | **Layer 2 (Scaling)** | Lightning Network (HTLCs), Ark Protocol, RGB, Client-side Validation. | Melakukan scaling tanpa mengorbankan integritas Layer 1 yang suci. |
 | 9 | **Privacy & Fungibility** | CoinJoin, Tapscript, Output Billability, Preventing Chain Analysis. | Privasi bukan untuk menyembunyikan kejahatan, tapi untuk melindungi kebebasan individu. |
 | 10 | **Bitcoin Software** | Bitcoin Core vs Knots, GPG Verification, Reproducible Builds, Gitian. | Memastikan kode yang dijalankan adalah kode yang benar-benar disepakati oleh komunitas. |
