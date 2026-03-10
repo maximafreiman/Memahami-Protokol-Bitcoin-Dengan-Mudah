@@ -28,3 +28,16 @@ Kalau divisualisasikan, skemanya seperti ini. Baca bagan dari bawah ke atas, kar
 
 <img width="1920" height="1080" alt="TXData1" src="https://github.com/user-attachments/assets/1f3f8fa5-d6ba-4006-9ad7-aea83ec85dc7" />
 
+### 3. Mengapa Merkle Tree Lebih Baik dari Sistem Perbankan?
+Sistem perbankan tradisional biasanya menggunakan Database Terpusat. Inilah perbandingannya secara fundamental:
+
+
+| Fitur | Sistem Perbankan (Tradisional) | Bitcoin (Merkle Tree) |
+| :--- | :--- | :--- |
+| **Keamanan Data** | Bergantung pada keamanan server bank. Jika admin bank mengubah angka, sulit dideteksi publik. | Jika 1 bit data transaksi diubah, **Merkle Root** akan berubah total. Manipulasi langsung ketahuan. |
+| **Verifikasi** | Kamu harus percaya laporan bulanan dari bank (*Trust*). | Kamu bisa membuktikan transaksi sah secara matematis tanpa percaya siapa pun (*Don't Trust, Verify*). |
+| **Kecepatan Cek** | Auditor harus mengecek ribuan baris buku besar satu per satu. | Cukup cek satu jalur di pohon (disebut *Merkle Proof*) untuk membuktikan transaksi ada di dalam block. |
+| **Efisiensi** | Membutuhkan infrastruktur IT yang sangat besar dan tertutup. | Sangat ringan; HP jadul pun bisa memverifikasi transaksi secara aman tanpa simpan seluruh data (SPV). |
+
+### Kesimpulan
+Merkle Tree adalah alasan kenapa Bitcoin bisa tetap desentralisasi. Dia memungkinkan siapa saja untuk membuktikan kebenaran data tanpa perlu minta izin atau percaya kepada admin bank.
