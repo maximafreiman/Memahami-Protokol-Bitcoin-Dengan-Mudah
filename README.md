@@ -14,7 +14,7 @@
 | 2 | **Konsensus** | Byzantine Generals Problem, Proof of Work (PoW), Fork Rules, 21 Million Cap. | Konsensus bukan demokrasi; konsensus adalah validasi matematis yang tidak bisa disuap. |
 | 3 | **Transaksi** | UTXO Model, Script (Locking/Unlocking), Fee Market, Mempool. | UTXO adalah kedaulatan; setiap satoshi harus memiliki silsilah yang jelas dan valid. |
 | 4 | **Block** | Block Header, Hash, TXID, Merkle Tree, Reorgs. | Membedah struktur blok sebagai detak jantung ekonomi yang tidak bisa dimanipulasi. |
-| 5 | **Kriptografi (Current Focus)** | SHA-256, ECC (secp256k1), ECDSA vs Schnorr, Taproot (BIP341). | Matematika adalah satu-satunya hukum yang tidak mengenal batasan negara atau sensor. |
+| 5 | **Kriptografi (Current Focus)** | SHA-256, ECC (secp256k1), RIPEMD-160, ECDSA, Schnorr, Taproot (BIP341). | Matematika adalah satu-satunya hukum yang tidak mengenal batasan negara atau sensor. |
 | 6 | **Mining** | Difficulty Adjustment, Poisson Distribution, Stratum V2, 51% Attack Vectors. | Memastikan keamanan fisik jaringan tetap terdesentralisasi dan tahan terhadap paksaan negara. |
 | 7 | **Node & P2P** | Sistem Terdistribusi, Full Node vs Pruned, IBD (Initial Block Download), UASF (BIP148), Peer Discovery. | "Don't Trust, Verify." Menjalankan node sendiri adalah satu-satunya cara untuk merdeka. |
 | 8 | **Layer 2 (Scaling)** | Lightning Network (HTLCs), Ark Protocol, RGB, Client-side Validation. | Melakukan scaling tanpa mengorbankan integritas Layer 1 yang suci. |
