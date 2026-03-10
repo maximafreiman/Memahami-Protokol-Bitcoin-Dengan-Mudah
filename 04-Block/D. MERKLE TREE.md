@@ -1,4 +1,4 @@
-# Merkle Tree, Struktur Matematika yang Menjaga Ribuan Data (TXID) dalam 1 Kode
+# Merkle Root, Ringkasan Semua Ribuan Data (TXID) dalam 1 Kode
 
 
 ### A. Apa itu Merkle Tree?
