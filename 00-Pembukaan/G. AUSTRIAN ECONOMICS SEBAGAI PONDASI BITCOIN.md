@@ -44,5 +44,6 @@ Di bank, uangmu sebenarnya adalah "angka piutang". Bank bisa bangkrut atau memba
 
 ---
 
-> **Kesimpulan:** > Sistem perbankan sekarang seperti balon yang terus ditiup (inflasi) sampai suatu saat akan meledak. Mazhab Austria dan Bitcoin adalah jarum yang ingin mengempiskan balon itu secara perlahan dan menggantinya dengan pondasi batu yang kokoh bagi peradaban manusia.
+> **Kesimpulan:** > Sistem perbankan sekarang seperti balon yang terus ditiup (inflasi). 
+Dalam Mazhab Austria, ini dapat menciptakan gelembung ekonomi, yang suatu saat perlu dikoreksi. Bitcoin muncul bukan untuk menusuk gelembung itu secara paksa, tapi untuk menawarkan pondasi batu alternatif yang kokoh bagi peradaban manusia.
 
