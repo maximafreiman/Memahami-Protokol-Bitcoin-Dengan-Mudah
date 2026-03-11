@@ -5,13 +5,16 @@ TXID (Transaction ID) adalah sidik jari digital yang unik untuk setiap transaksi
 Berikut adalah penjelasan sederhana bagaimana TXID merangkum aktivitas penggunaan UTXO tersebut:
 
 ## 1. TXID sebagai "Nama File" Hasil Ringkasan
-Secara teknis, TXID adalah hasil dari proses hashing (menggunakan algoritma SHA-256 dua kali) terhadap seluruh data mentah transaksi. Data ini mencakup:
+Secara teknis, TXID adalah hasil dari proses hashing (menggunakan algoritma SHA-256 dua kali)
+terhadap data transaksi yang telah disusun dengan urutan tertentu. 
 
-- Input: UTXO mana yang kamu pakai (referensi ke transaksi sebelumnya).
+Data ini mencakup: 
+- Input – UTXO yang digunakan sebagai sumber dana (referensi ke transaksi sebelumnya). 
+- Output – alamat tujuan pengiriman dan jumlah koin, termasuk kembalian. 
+- Metadata – versi transaksi dan locktime.
 
-- Output: Ke mana koin tersebut dikirim dan berapa sisa (kembalian) untukmu.
+<img width="1920" height="1080" alt="UTXO COUPON (2)" src="https://github.com/user-attachments/assets/8fbcb83d-fe28-4d4a-98dd-975addcfef58" />
 
-- Metadata: Versi transaksi dan locktime.
 
 Jika ada satu saja angka atau huruf yang berubah dalam detail transaksi tersebut, maka TXID-nya akan berubah total. Inilah yang menjadikannya bukti otentik bahwa data transaksi tidak dimanipulasi.
 
@@ -19,11 +22,12 @@ Jika ada satu saja angka atau huruf yang berubah dalam detail transaksi tersebut
 ## 2. Ringkasan Aktivitas UTXO
 Karena Bitcoin menggunakan model UTXO (Unspent Transaction Output), setiap transaksi sebenarnya adalah aktivitas "menghancurkan" UTXO lama dan "menciptakan" UTXO baru.
 
-- Proses Input: TXID mencatat dari mana asal koinmu. Ia menunjuk ke TXID transaksi sebelumnya dan nomor urut (index) koin yang kamu miliki di sana.
+- Proses Input: Transaksi menunjuk sumber koin, dengan mereferensikan TXID dan nomor urut (index) dari UTXO lama yang ingin digunakan.
 
-- Proses Output: TXID yang baru akan menjadi identitas bagi koin-koin "segar" yang baru saja kamu buat untuk penerima.
+- Proses Output: Transaksi kemudian menciptakan UTXO baru, TXID yang baru, beserta nomor urut (index)-nya akan menjadi identitas bagi koin koin "segar" yang baru dibuat untuk penerima.
 
-Dengan kata lain, TXID adalah cara efisien untuk melacak silsilah koin tanpa harus membawa seluruh sejarah blok di setiap transaksi. Cukup dengan menyebutkan satu deret kode TXID, jaringan tahu persis koin mana yang sedang dipindahkan.
+Dengan kata lain, TXID adalah cara efisien untuk melacak silsilah koin tanpa harus membawa seluruh sejarah blok di setiap transaksi. 
+Cukup dengan menyebutkan satu deret kode TXID, jaringan tahu persis koin mana yang sedang dipindahkan.
 
 ## 3. Bukti Transaksi yang Tak Terbantahkan
 TXID berfungsi sebagai resi digital. Kamu tidak perlu mengirimkan detail teknis yang panjang kepada orang lain untuk membuktikan pembayaran. Cukup berikan TXID-nya, dan siapa pun bisa mengeceknya di block explorer atau melalui node mereka sendiri.
@@ -36,4 +40,8 @@ Kenapa ini disebut bukti yang kuat?
 
 ## Penjelasan Ringkas:
 
-Proses pembentukan TXID pada Bitcoin dimulai dengan mengambil data transaksi mentah (seperti daftar UTXO yang digunakan dan alamat tujuan) kemudian "dijadikan 1 dan diringkas" SHA-256 sebanyak dua kali (Double SHA-256) untuk menghasilkan sebuah deret unik berupa 64 karakter heksadesimal (kombinasi huruf dan angka). Kesimpulannya, hashing berfungsi sebagai "blender digital" yang merangkum data kompleks menjadi satu kode ringkas yang mustahil dipalsukan; jika satu bit data di dalam transaksi berubah, maka hasil hash-nya akan berubah total, sehingga menjamin integritas dan keamanan setiap perpindahan nilai dalam jaringan.
+Proses pembentukan TXID pada Bitcoin dimulai dengan mengambil data transaksi mentah (seperti daftar UTXO yang digunakan dan alamat tujuan), kemudian menyusunnya menjadi satu paket data yang di-hash menggunakan algoritma SHA-256 sebanyak dua kali (double SHA-256).
+
+Hasilnya adalah sebuah deret unik berupa 64 karakter heksadesimal (kombinasi angka dan huruf).
+
+Secara sederhana, hashing dapat dibayangkan seperti “blender digital” yang mengubah data kompleks menjadi satu kode ringkas. Jika satu bit saja dalam data transaksi berubah, maka hasil hash-nya akan berubah total. Inilah yang membantu menjaga integritas dan keamanan setiap perpindahan nilai dalam jaringan Bitcoin.
