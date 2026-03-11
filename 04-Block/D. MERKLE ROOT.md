@@ -1,4 +1,4 @@
-# Merkle Root, Ringkasan Semua Ribuan Data (TXID) dalam 1 Kode
+# Merkle Root, Ringkasan Ribuan Data (TXID) dalam 1 Kode
 
 
 ### A. Apa itu Merkle Tree?
@@ -11,7 +11,7 @@ Ralph Merkle menciptakan solusi matematis berupa "pohon" yang saling mengikat. P
 
 ### B. Cara Kerja Merkle Tree Secara Sederhana
 
-Bayangkan sebuah block Bitcoin berisi 4 transaksi (A, B, C, dan D). Inilah yang terjadi di balik layar secara teknis:
+Bayangkan sebuah block Bitcoin berisi 4 transaksi (1, 2, 3, dan 4). Inilah yang terjadi di balik layar secara teknis:
 
 1. Level Dasar (Transaksi): Setiap transaksi (TXID) adalah baris data mentah.
 
