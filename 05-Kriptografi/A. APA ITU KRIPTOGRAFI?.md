@@ -17,4 +17,7 @@ Selain untuk mengirim chat pribadi, teknik ini juga digunakan untuk mengamankan 
 
 Kriptografi itu ada dua jenis berdasarkan level keamanannya, yaitu"
 - Kriptografi kunci simetris
+- Kriptografi kunci asimetris
+
+Lanjutan sooon...
 
