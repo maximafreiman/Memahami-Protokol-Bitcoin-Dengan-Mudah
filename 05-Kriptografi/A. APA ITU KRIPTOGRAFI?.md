@@ -31,6 +31,8 @@ Kriptografi memungkinkan kita untuk tahu apakah sebuah data telah dimanipulasi a
 4. **Membangun sistem tanpa perantara**
 Ini adalah poin yang sangat modern. Kriptografi memungkinkan dua orang yang tidak saling kenal dan tidak saling percaya untuk bertukar nilai atau data secara aman tanpa butuh pihak ketiga (seperti bank atau notaris) sebagai penjamin. Mekanisme: Keamanan sistem ini dijaga oleh aturan matematika dan konsensus, bukan oleh janji manusia atau lembaga. Poin inilah yang kemudian menjadi basis utama Bitcoin.
 
+##
+
 Intinya adalah: Kriptografi mengubah jalur komunikasi yang "terbuka dan liar" (internet) menjadi ruang yang bisa kita gunakan untuk berbagi informasi rahasia dengan aman.
 
 
