@@ -5,7 +5,7 @@ Kriptografi simetris adalah teknik pengamanan data di mana pengirim dan penerima
 
 ##
 
-## Konsep Kriptografi Simetris: Kunci Rahasia yang Sama untuk Pengirim dan Penerima Pesan
+### Konsep Kriptografi Simetris: Kunci Rahasia yang Sama untuk Pengirim dan Penerima Pesan
 
 Dalam dunia kriptografi, metode Simetris adalah cara yang paling mendasar. Bayangkan kamu ingin mengirimkan sebuah pesan rahasia di atas selembar kertas kepada seorang teman. Agar pesan tersebut tidak bisa diintip oleh siapa pun saat dalam perjalanan, kamu menggunakan sebuah peti kayu yang dilengkapi dengan gembok.
 
