@@ -17,6 +17,9 @@ Prosesnya bekerja seperti ini:
 
 3. Membuka Pesan: Begitu peti sampai di tangan temanmu, ia akan menggunakan duplikat kunci yang persis sama dengan milikmu untuk membuka gembok tersebut.
 
+
+
+
 Kunci dari keamanan sistem ini terletak pada kerahasiaan kunci itu sendiri. Karena kunci untuk "mengunci" dan "membuka" adalah barang yang sama, maka hanya kamu dan temanmu saja yang boleh memilikinya. Jika ada orang lain (termasuk si kurir atau server) yang berhasil mendapatkan salinan kunci tersebut, maka keamanan peti kayu itu tidak lagi ada gunanya.
 
 
