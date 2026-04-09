@@ -1,3 +1,3 @@
-# Partially Signed Transaction (PSBT)
+# Partially Signed Bitcoin Transaction (PSBT)
 
-text soon
+PSBT (Partially Signed Bitcoin Transaction) adalah sebuah format file standar yang memungkinkan transaksi Bitcoin "setengah jadi" dipindahkan antar perangkat dengan aman tanpa perlu menyentuh kunci pribadi (private key). Bayangkan PSBT seperti sebuah formulir cek digital yang sudah diisi nominal dan tujuannya, namun masih membutuhkan satu atau lebih tanda tangan basah agar bisa dicairkan ke bank; format ini dirancang agar dompet yang terhubung ke internet bisa menyiapkan transaksi, sementara perangkat yang offline (cold storage) bisa memeriksa dan menandatanganinya secara terpisah.
