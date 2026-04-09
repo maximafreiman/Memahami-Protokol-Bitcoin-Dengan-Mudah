@@ -31,7 +31,7 @@ Cara kerja PSBT bisa dibagi menjadi 4 langkah sederhana seperti alur "surat pers
 
 4. Penyiaran (Broadcast): File yang sudah ditandatangani dikirim balik ke dompet online. Dompet online kemudian menyiarkannya ke jaringan Bitcoin agar transaksi diproses secara resmi.
 
-Singkatnya: Siapkan di online, Tandatangani di offline, lalu Kirim balik ke online untuk disiarkan.
+Singkatnya: Siapkan di online, tandatangani di offline, lalu kirim balik ke online untuk disiarkan.
 
 --
 
