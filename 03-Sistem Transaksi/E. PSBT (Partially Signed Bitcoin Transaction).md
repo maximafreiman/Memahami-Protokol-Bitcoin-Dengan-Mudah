@@ -4,7 +4,6 @@ PSBT (Partially Signed Bitcoin Transaction) adalah sebuah format file standar ya
 
 ## Kenapa PSBT Penting? Dan Apa Fungsinya?
 
-Gemini berkata
 Secara sederhana, **PSBT (Partially Signed Bitcoin Transaction)** penting karena ia adalah "bahasa universal" yang memungkinkan berbagai perangkat Bitcoin saling berkomunikasi tanpa membocorkan rahasia paling penting, yaitu Private Key kamu.
 
 Berikut adalah alasan mengapa PSBT penting dan apa fungsinya dalam penggunaan sehari-hari:
